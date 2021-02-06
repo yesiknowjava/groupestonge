@@ -1,0 +1,63 @@
+hero_title: "<em>NOUS JOINDRE</em> / DEMANDE D'ESTIMATION"
+request_title: "DEMANDE D'ESTIMATION"
+request_text: "<div class='explain'>
+      <h2>Demande d'estimation</h2>
+      <p> Un projet d'excavation en tête?<br> Des questions sur l'installation d'une fosse septique?<br> Besoin de pierres pour votre paysagement? </p> <p> Notre équipe d'experts se fera un plaisir de vous aider! </p>
+    </div>"
+office_title: "SIÈGE SOCIAL"
+office_text: "<div class='contact-info'>
+      <h2>Siège social</h2>
+      <ul>
+        <li>
+          <i class='fa fa-map-marker'></i>
+          <a href='https://www.google.ca/maps/place/1075+Croissant+Des+Hauteurs,+Saint-Hippolyte,+QC+J8A+0A5/' target='_blank'>
+            <span class='solidary-line'>1075 Croissant des Hauteurs,</span>
+            <span class='solidary-line'>St-Hippolyte J8A 0A5</span>
+          </a>
+        </li>
+        <li>
+          <i class='fa fa-phone'></i>
+          <a href='tel:4502240555'>450.224.0555</a>
+        </li>
+        <li>
+          <i class='fa fa-fax'></i>
+          <a href='tel:4502244550'>450.224.4550</a>
+        </li>
+        <li>
+          <i class='fa fa-envelope'></i>
+          <a href='mailto:info@groupestonge.com'>info@groupestonge.com</a>
+        </li>
+        <li>
+          <i class='icon-rbq'></i>
+          <span>2423-7190-25</span>
+        </li>
+        <li>
+          <i class='fa fa-clock-o'></i>
+          <span>
+            <span class='solidary-line'>Lundi au jeudi: 8 h à 17 h</span><br> <span class='solidary-line'>Vendredi: 8 h à 16 h</span>
+          </span>
+        </li></ul>
+      </div>"
+carreer_title: "CARREER"
+carreer_text: "<div class='employ'>
+        <h2>Emplois</h2>
+        <ul>
+          <li>
+            <a class='button' href='/career'>Déposer ma candidature</a>
+          </li>
+            <li>
+    <a class='button' href='/career/manoeuvre-genie-civil-commercial-residentiel'>Manœuvre au génie civil commercial et résidentiel</a>
+  </li>
+  <li>
+    <a class='button' href='/career/chauffeur-de-camions'>Chauffeur de camions Classe 1 et 3</a>
+  </li>
+
+        </ul>
+      </div>"
+name: "Votre nom*"
+email: "Votre courriel*"
+phone: "Votre téléphone*"
+address: "Adresse du projet*"
+date: "Date des travaux*"
+work: "Description des travaux*"
+send: "Envoyer"

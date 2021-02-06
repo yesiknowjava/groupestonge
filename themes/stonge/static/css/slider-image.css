@@ -1,0 +1,21 @@
+section.slideshow .slides > * {
+  background-size: cover;
+}
+
+#image-excaveuse { background-image: url('/img/excaveuse.jpg'); }
+
+#home-slider-1 { background-image: url('/img/slide1-1024.jpg'); }
+#home-slider-2 { background-image: url('/img/slide2-1024.jpg'); }
+#home-slider-3 { background-image: url('/img/slide3-1024.jpg'); }
+
+@media(min-device-width: 1025px) { 
+  #home-slider-1 { background-image: url('/img/slide1-2048.jpg'); }
+  #home-slider-2 { background-image: url('/img/slide2-2048.jpg'); }
+  #home-slider-3 { background-image: url('/img/slide3-2048.jpg'); }
+}
+
+@media(min-device-width: 2049px) { 
+  #home-slider-1 { background-image: url('/img/slide1-4096.jpg'); }
+  #home-slider-2 { background-image: url('/img/slide2-4096.jpg'); }
+  #home-slider-3 { background-image: url('/img/slide3-4096.jpg'); }
+}

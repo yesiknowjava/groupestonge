@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://groupestonge.com/apropos -->
+<!DOCTYPE html>
+<html>
+  {{ $data := index .Site.Data .Site.Language.Lang }}
+{{  partial "head.html" .}}
+<body>
+  {{ partial "header.html" .}}
+  <main role="main">
+    <div class="full-width page-title background-faded heading" id="service-title">
+      <h1 class="hook wrap"> {{ $data.about.hero_title | safeHTML  }}
+      </h1>
+    </div>
+    <div class="full-width">
+
+
+
+      <div class="wrap content">
+        <div class="heading-image">
+          <img src="{{ $data.about.image }}">
+        </div>
+
+        <div class="explain">
+          <h2>{{ $data.about.history_title }}</h2>
+          <p>{{ $data.about.history_text }} </p>
+          <p>{{ $data.about.history_text1 }} </p>
+          <p>{{ $data.about.history_text2 }} </p>
+         
+        </div>
+
+        <div class="values">
+          <h2>{{ $data.about.value_title }}</h2>
+          <div class="b-columnar b-four-column smaller-columnar smaller-two-column">
+            {{ range $data.about.values }}
+            <figure>
+              <img src="{{ .image | relURL }}">
+              <figcaption>
+                <h3>{{ .title }}</h3>
+                <p>{{ .text}}</p>
+              </figcaption>
+            </figure>
+            {{end}}
+          </div>
+        </div>
+
+        <div class="explain">
+          <h2>{{$data.about.our_mission}}</h2>
+          <p> {{$data.about.mission_text}}</p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+{{ partial "footer.html" .}}
+
+
+  
+</body>
+
+</html>

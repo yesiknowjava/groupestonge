@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<script async="" src="https://www.google-analytics.com/analytics.js"></script>
+<script type="text/javascript">
+    window["_gaUserPrefs"] = {
+        ioo: function () {
+            return true;
+        }
+    }
+</script>
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ if eq .Params.title "pierre" }}
+
+    {{ .Scratch.Set "img" $data.carrier.pierre.img }}
+    {{ .Scratch.Set "alt" $data.carrier.pierre.alt }}
+    {{ .Scratch.Set "sub_title" $data.carrier.pierre.sub_title }}
+    {{ .Scratch.Set "text" $data.carrier.pierre.text }}
+    {{ .Scratch.Set "crushed_stones_title" $data.carrier.pierre.crushed_stones_title }}
+    {{ .Scratch.Set "crushed_stones_text" $data.carrier.pierre.crushed_stones_text }}
+    {{ .Scratch.Set "natural_stone_title" $data.carrier.pierre.natural_stone_title }}
+    {{ .Scratch.Set "natural_stone_text" $data.carrier.pierre.natural_stone_text }}
+    {{ .Scratch.Set "material_title" $data.carrier.pierre.material_title }}
+    {{ .Scratch.Set "material_text" $data.carrier.pierre.material_text }}
+    {{ .Scratch.Set "quote_title" $data.carrier.pierre.quote_title }}
+    {{ .Scratch.Set "quote_text" $data.carrier.pierre.quote_text }}
+    {{ .Scratch.Set "url" $data.carrier.pierre.url }}
+{{ else if eq .Params.title "manoeuvre" }}
+
+    {{ .Scratch.Set "img" $data.carrier.manoeuvre.img }}
+    {{ .Scratch.Set "alt" $data.carrier.manoeuvre.alt }}
+    {{ .Scratch.Set "sub_title" $data.carrier.manoeuvre.sub_title }}
+    {{ .Scratch.Set "text" $data.carrier.manoeuvre.text }}
+    {{ .Scratch.Set "crushed_stones_title" $data.carrier.manoeuvre.crushed_stones_title }}
+    {{ .Scratch.Set "crushed_stones_text" $data.carrier.manoeuvre.crushed_stones_text }}
+    {{ .Scratch.Set "natural_stone_title" $data.carrier.manoeuvre.natural_stone_title }}
+    {{ .Scratch.Set "natural_stone_text" $data.carrier.manoeuvre.natural_stone_text }}
+    {{ .Scratch.Set "material_title" $data.carrier.manoeuvre.material_title }}
+    {{ .Scratch.Set "material_text" $data.carrier.manoeuvre.material_text }}
+    {{ .Scratch.Set "quote_title" $data.carrier.manoeuvre.quote_title }}
+    {{ .Scratch.Set "quote_text" $data.carrier.manoeuvre.quote_text }}
+    {{ .Scratch.Set "url" $data.carrier.manoeuvre.url }}
+{{ else }} 
+    {{ .Scratch.Set "img" $data.carrier.chauffeur_de_camions.img }}
+    {{ .Scratch.Set "alt" $data.carrier.chauffeur_de_camions.alt }}
+    {{ .Scratch.Set "sub_title" $data.carrier.chauffeur_de_camions.sub_title }}
+    {{ .Scratch.Set "text" $data.carrier.chauffeur_de_camions.text }}
+    {{ .Scratch.Set "crushed_stones_title" $data.carrier.chauffeur_de_camions.crushed_stones_title }}
+    {{ .Scratch.Set "crushed_stones_text" $data.carrier.chauffeur_de_camions.crushed_stones_text }}
+    {{ .Scratch.Set "natural_stone_title" $data.carrier.chauffeur_de_camions.natural_stone_title }}
+    {{ .Scratch.Set "natural_stone_text" $data.carrier.chauffeur_de_camions.natural_stone_text }}
+    {{ .Scratch.Set "material_title" $data.carrier.chauffeur_de_camions.material_title }}
+    {{ .Scratch.Set "material_text" $data.carrier.chauffeur_de_camions.material_text }}
+    {{ .Scratch.Set "quote_title" $data.carrier.chauffeur_de_camions.quote_title }}
+    {{ .Scratch.Set "quote_text" $data.carrier.chauffeur_de_camions.quote_text }}
+    {{ .Scratch.Set "url" $data.carrier.chauffeur_de_camions.url }}
+
+{{end}}
+{{partial "head.html" . }}
+
+<body>
+    <div style="display: none;"></div>
+    {{ partial "header.html" . }}
+    <main role="main">
+        <div class="full-width page-title background-faded heading" id="service-title">
+            <h1 class="hook wrap"> <em>Carrières</em>
+            </h1>
+        </div>
+        <div class="full-width content-aside">
+            <div class="wrap b-columnar">
+                {{partial "career_side_bar.html" (dict "context" . "params" .Params) }}
+                <div class="content">
+
+
+                    <div id="career">
+                        <div class="contact-form">
+                            <img src="{{ .Scratch.Get "img" | relURL }}">
+                            <div class="explain job-description">
+                                <p>Travailler chez Groupe St-Onge, c'est faire partie d'une équipe chevronnée et
+                                    passionnée. Notre réussite commence avec vous.</p>
+                            </div>
+                            <form class="new_career" id="new_career" enctype="multipart/form-data" action="/fr/career"
+                                accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input
+                                    type="hidden" name="authenticity_token"
+                                    value="RW71xx+QzcKBIQVeK7PRnWw9L4YMcmXOkPJEuEmRv0urF9QRFOwdJkH6SUSBokNEBSQV3QYn+iV/sXdAkSRBQA==">
+                                <div class="b-columnar b-two-column">
+                                    <div class="floatl">
+                                        <input class="required" type="text" value="" name="career[name]"
+                                            id="career_name" placeholder="Votre nom*"
+                                            style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+                                        <label for="career_name">Votre nom*</label>
+
+                                    </div>
+                                    <div class="floatl">
+                                        <input class="required" type="text" value="" name="career[first_name]"
+                                            id="career_first_name" placeholder="Votre prénom*">
+                                        <label for="career_first_name">Votre prénom*</label>
+
+                                    </div>
+                                    <div class="floatl">
+                                        <input class="required" type="text" value="" name="career[email]"
+                                            id="career_email" placeholder="Votre courriel*">
+                                        <label for="career_email">Votre courriel*</label>
+
+                                    </div>
+                                    <div class="floatl">
+                                        <input class="required" type="text" value="" name="career[phone]"
+                                            id="career_phone" placeholder="Votre téléphone*">
+                                        <label for="career_phone">Votre téléphone*</label>
+
+                                    </div>
+                                </div>
+                                <div class="floatl">
+                                    <input class="required" type="text" value="" name="career[job_title]"
+                                        id="career_job_title" placeholder="Poste convoité*">
+                                    <label for="career_job_title">Poste convoité*</label>
+
+                                </div>
+                                <div class="floatl">
+                                    <input class="required" type="file" name="career[cv]" id="career_cv"
+                                        placeholder="Votre CV*">
+                                    <label for="career_cv">Votre CV*</label>
+
+                                </div>
+                                <input type="submit" name="commit" value="Envoyer">
+                            </form>
+                        </div>
+                    </div>
+
+                    <script src="/javascripts/forms.js"></script>
+
+
+                    <span style="display: none"></span>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    {{ partial "footer.html" . }}
+
+
+    <div class="nsc-content-camera nsc-hide" style="top: 10px; left: 10px;">
+        <div class="nsc-content-camera-buttons" flex="none" layout="row" layout-align="start start">
+            <button class="nsc-content-camera-button nsc-hide" type="button" id="nsc_video_camera_collapse">
+                <span class="nsc-icon nsc-icon-panel-collapse"></span>
+            </button>
+            <button class="nsc-content-camera-button" type="button" id="nsc_video_camera_expand">
+                <span class="nsc-icon nsc-icon-panel-expand"></span>
+            </button>
+            <button class="nsc-content-camera-button" type="button" id="nsc_video_camera_close">
+                <span class="nsc-icon nsc-icon-panel-close"></span>
+            </button>
+        </div>
+        <div class="nsc-content-camera-container">
+            <div class="nsc-content-camera-shadow"></div>
+        </div>
+    </div>
+</body>
+
+</html>

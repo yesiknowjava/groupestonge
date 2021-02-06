@@ -1,0 +1,32 @@
+hero_title: "<em>À PROPOS</em> DU GROUPE ST-ONGE"
+image: "/img/groupe-st-onge-apropos.jpg"
+history_title: "NOTRE HISTOIRE"
+history_text: "En 1962, Gilles St-Onge fonda l’entreprise Groupe St-Onge avec seulement un bulldozer et un camion. Près de 34 ans plus tard, soit en 1996, ses enfants décidèrent de poursuivre le rêve paternel en se joignant au sein de l’entreprise. À cette époque, Groupe St-Onge comptait 8 employés et une douzaine d’unités à sa flotte de véhicules."
+
+history_text1: "Un an plus tard, le succès est florissant. Le chiffre d’affaires, le nombre d’employés ainsi que le nombre de véhicules avaient doublé! En 2001, Groupe St-Onge ajoute une nouvelle corde à son arc avec la division Génie civil."
+
+history_text2: "C’est en 2011 que Gilles St-Onge décida de prendre sa retraite officiellement, tout en demeurant une personne active dans le milieu. L’entreprise familiale compte maintenant 42 employés et plus de 30 véhicules lourds.
+
+"
+
+value_title: "NOS VALEURS"
+values:
+  - title: "Service"
+    image: "/img/service.png"
+    text: "Offrir toujours un service courtois à tous nos clients, et ce, avec des équipements performants."
+
+  - title: "Qualité"
+    image: "/img/qualite.png"
+    text: "Respecter les normes en vigueur et offrir les plus hauts standards de l’industrie."
+
+  - title: "À l'écoute"
+    image: "/img/ecoute.png"
+    text: "Réaliser des projets d’excavation et de génie civil personnalisés selon les attentes de nos clients."
+
+  - title: "Nature - Vert"
+    image: "/img/nature.jpg"
+    text: "Appliquer les normes environnementales, favoriser le reboisement et le respect de l’habitat naturel."
+
+
+our_mission: "NOTRE MISSION"
+mission_text: "Depuis plus de 50 ans, Groupe St-Onge a pour mission d'offrir à sa clientèle un service exceptionnel ainsi que des travaux rencontrant les plus hauts standards de l’industrie."

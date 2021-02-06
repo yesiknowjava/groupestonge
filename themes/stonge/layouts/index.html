@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+{{partial "head.html" . }}
+<body>
+    {{ partial "header.html" . }}
+    {{ $data := index .Site.Data .Site.Language.Lang }}
+    <main role="main">
+
+
+
+
+
+        {{partial "slider.html" . }}
+        <section class="full-width get-quote">
+            <div class="wrap columnar two-column">
+                <div>
+                    <div class="left">
+                        {{ $data.home.quote_title | safeHTML  }}
+                    </div>
+                </div>
+                <div>
+                    <div class="right">
+                        <div class="underline">
+                            <a href="{{ $data.home.quote_url | safeHTML  }}">{{ $data.home.quote_text | safeHTML  }}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="full-width primary" id="index-explain">
+            <div class="wrap content">
+                <div class="explain">
+                    <h1>{{ $data.home.hero_title | safeHTML  }}</h1>
+                    <p> {{ $data.home.hero_text | safeHTML  }} </p>
+                </div>
+
+                <div class="services">
+                    <h2>{{ $data.home.specalist_title | safeHTML  }}</h2>
+
+                    <ul class="b-columnar b-four-column small-columnar small-two-column">
+                        <!-- Liste des services -->
+                        <li>
+                            <span>
+                                <img src="{{"/img/excavation-generale-512.jpg" | relURL}}" alt="Excavation generale 512">
+                            </span>
+                            <div class="services-content">
+                                <h3>{{ (index $data.home.specalist 0).title | safeHTML  }}</h3>
+                                <p>{{ (index $data.home.specalist 0).text | safeHTML  }}</p>
+                                <a class="button-more" href="{{ (index $data.home.specalist 0).url | safeHTML  }}">{{ (index $data.home.specalist 0).btn | safeHTML  }}</a>
+                            </div>
+
+                        </li>
+
+                        <li>
+                            <span>
+                                <img src="{{"/img/installation-septique-512.jpg" | relURL}}"
+                                    alt="Installation septique 512">
+                            </span>
+                            <div class="services-content">
+                                <h3>{{ (index $data.home.specalist 1).title | safeHTML  }}</h3>
+                                <p>{{ (index $data.home.specalist 1).text | safeHTML  }}</p>
+                                <a class="button-more" href="{{ (index $data.home.specalist 1).url | safeHTML  }}">{{ (index $data.home.specalist 1).btn | safeHTML  }}</a>
+                            </div>
+
+                        </li>
+
+                        <li>
+                            <span>
+                                <img src="{{"/img/livraison-materiaux-512.jpg" | relURL}}" alt="Livraison materiaux 512">
+                            </span>
+                            <div class="services-content">
+                                <h3>{{ (index $data.home.specalist 2).title | safeHTML  }}</h3>
+                                <p>{{ (index $data.home.specalist 2).text | safeHTML  }}</p>
+                                <a class="button-more" href="{{ (index $data.home.specalist 2).url | safeHTML  }}">{{ (index $data.home.specalist 2).btn | safeHTML  }}</a>
+                            
+                            </div>
+
+                        </li>
+
+                        <li>
+                            <span>
+                                <img src="{{"/img/genie-civil-512.jpg"  | relURL}}" alt="Genie civil 512">
+                            </span>
+                            <div class="services-content">
+                                <h3>{{ (index $data.home.specalist 3).title | safeHTML  }}</h3>
+                                <p>{{ (index $data.home.specalist 3).text | safeHTML  }}</p>
+                                <a class="button-more" href="{{ (index $data.home.specalist 3).url | safeHTML  }}">{{ (index $data.home.specalist 3).btn | safeHTML  }}</a>
+                            
+                            </div>
+
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="bandeau-equipement" class="full-width background-faded">
+            <div class="wrap columnar">
+                <div class="service-title">
+                    <h2>{{ $data.home.equipment_text | safeHTML  }}</h2>
+                </div>
+                <div class="equipement small-columnar small-four-column smaller-columnar smaller-two-column">
+                    <figure>
+                        <img alt="pelles" src="{{"/img/pelles.png" | relURL }}" class="pelle">
+                        <div class="qty">9</div>
+                        <figcaption>
+                            <p>{{ $data.home.equipment_text1 | safeHTML  }}</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure>
+                        <img alt="camions" src="{{"/img/camions.png" | relURL }}">
+                        <div class="qty">21</div>
+                        <figcaption>
+                            <p>{{ $data.home.equipment_text2 | safeHTML  }}</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure>
+                        <img alt="chargeurs" src="{{"/img/chargeurs.png" | relURL }}">
+                        <div class="qty">7</div>
+                        <figcaption>
+                            <p>{{ $data.home.equipment_text3 | safeHTML  }}</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure>
+                        <img alt="travailleurs" src="{{"/img/travailleurs.png" | relURL }}">
+                        <div class="qty">50</div>
+                        <figcaption>
+                            <p>{{ $data.home.equipment_text4 | safeHTML  }}</p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section class="full-width primary" id="index-support">
+            <div class="wrap b-columnar">
+                <div id="index-quote">
+                    <h2>{{ $data.home.testimonials_title | safeHTML  }}
+                    </h2>
+                    <blockquote>
+                        <div class="quote-slider" id="index-quote-slider">
+                            {{ $data.home.testimonials | safeHTML  }}
+                        </div>
+                    </blockquote>
+                </div>
+                <div id="index-partner">
+                    <h2>{{ $data.home.partners_title | safeHTML  }}</h2>
+                    <div class="small-columnar small-four-column smaller-columnar
+        smaller-two-column">
+                        {{ range $data.home.partners }}
+                        <figure>
+                            <a target="_blank" href="{{ .url }}">
+                                <div class="img-wrapper">
+                                    <img alt="Bionest" src="{{ .image }}">
+                                </div>
+                            </a> </figure>
+                        
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script type="text/javascript">
+            document.addEventListener('DOMContentLoaded', function () {
+                var slider = new PitekSlideshow(document.getElementById('index-big-img'), {
+                    duration: 6000
+                });
+                var next = document.createElement('button');
+                var prev = document.createElement('button');
+
+                next.addEventListener('click', slider.next.bind(slider));
+                next.classList.add('next');
+                prev.addEventListener('click', slider.previous.bind(slider));
+                prev.classList.add('prev');
+
+                slider.DOMElement.appendChild(next);
+                slider.DOMElement.appendChild(prev);
+            });
+        </script>
+
+    </main>
+{{ partial "footer.html" . }}
+
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+<aside>
+    <ul class="under-tablette breadcrumbs">
+        <li><a href="/en">Home</a></li>
+        <li><a href="/en/transports">Career</a></li>
+        <li><span> Stone delivery
+            </span></li>
+    </ul>
+    {{ $data := index .context.Site.Data .context.Site.Language.Lang }}
+    <ul class="over-tablette">
+        {{ $compare_title := .params.compare_title }}
+        {{ range $data.carrier.sidebar_links }}
+        <li>
+            <a class="{{ if eq $compare_title .compare_title }}current_page{{ end }}" href="{{ .url_link }}">{{ .title }}</a>
+        </li>
+        {{ end }}
+    </ul>
+
+</aside>

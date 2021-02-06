@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<script async="" src="https://www.google-analytics.com/analytics.js"></script>
+<script type="text/javascript">
+    window["_gaUserPrefs"] = {
+        ioo: function () {
+            return true;
+        }
+    }
+</script>  
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ if eq .Params.title "pierre" }}
+
+    {{ .Scratch.Set "img" $data.carrier.pierre.img }}
+    {{ .Scratch.Set "main_title" $data.carrier.pierre.main_title }}
+    {{ .Scratch.Set "hero_subtitle" $data.carrier.pierre.hero_subtitle }}
+    {{ .Scratch.Set "hero_subtext" $data.carrier.pierre.hero_subtext }}
+    {{ .Scratch.Set "responsiblites_title" $data.carrier.pierre.responsiblites_title }}
+    {{ .Scratch.Set "responsiblities_text" $data.carrier.pierre.responsiblities_text }}
+    {{ .Scratch.Set "criter_title" $data.carrier.pierre.criter_title }}
+    {{ .Scratch.Set "criter_text" $data.carrier.pierre.criter_text }}
+    {{ .Scratch.Set "info_title" $data.carrier.pierre.info_title }}
+    {{ .Scratch.Set "info_text" $data.carrier.pierre.info_text }}
+    {{ .Scratch.Set "last_text" $data.carrier.pierre.last_text }}
+{{ else }}
+    {{ .Scratch.Set "img" $data.carrier.manoeuvre.img }}
+    {{ .Scratch.Set "main_title" $data.carrier.manoeuvre.main_title }}
+    {{ .Scratch.Set "hero_subtitle" $data.carrier.manoeuvre.hero_subtitle }}
+    {{ .Scratch.Set "hero_subtext" $data.carrier.manoeuvre.hero_subtext }}
+    {{ .Scratch.Set "responsiblites_title" $data.carrier.manoeuvre.responsiblites_title }}
+    {{ .Scratch.Set "responsiblities_text" $data.carrier.manoeuvre.responsiblities_text }}
+    {{ .Scratch.Set "criter_title" $data.carrier.manoeuvre.criter_title }}
+    {{ .Scratch.Set "criter_text" $data.carrier.manoeuvre.criter_text }}
+    {{ .Scratch.Set "info_title" $data.carrier.manoeuvre.info_title }}
+    {{ .Scratch.Set "info_text" $data.carrier.manoeuvre.info_text }}
+    {{ .Scratch.Set "last_text" $data.carrier.manoeuvre.last_text }}
+{{end}}
+
+{{ partial "head.html" .}}
+<body>
+   {{partial "header.html" .}}
+    <main role="main">
+        <div class="full-width page-title background-faded heading" id="service-title">
+            <h1 class="hook wrap">  {{ .Scratch.Get "hero_subtitle" | safeHTML }} </h1>
+        </div>
+        <div class="full-width content-aside">
+            <div class="wrap b-columnar">                
+                {{ partial "career_side_bar.html" (dict "context" . "params" .Params) }}
+
+                <div class="content">
+            
+
+                    <div id="career">
+                      <div class="contact-form">
+                              <img src="{{ .Scratch.Get "img" | relURL }}">
+                        <div class="explain job-description">
+                            <h2>{{ .Scratch.Get "main_title" }}</h2>
+                    <p>
+                        {{ .Scratch.Get "hero_subtext" }}
+                    </p>
+                    
+                    <h3>
+                        {{ .Scratch.Get "responsiblites_title" }}
+                    </h3>
+                    
+                    <p>
+                        {{ .Scratch.Get "responsiblities_text" }}
+                    </p>
+                    
+                    <h3>
+                        {{ .Scratch.Get "criter_title" }}
+                    </h3>
+                    
+                    <ul>
+                        {{ range .Scratch.Get "criter_text"}}
+                            <li>{{.list_item }}</li>
+                        {{end}}                      
+                    </ul>
+                    <h3>
+                        {{ .Scratch.Get "info_title" }}
+                    </h3>
+                    <ul>
+                        {{ range .Scratch.Get "info_text"}}
+                            <li>{{.list_item }}</li>
+                        {{end}}
+                    </ul>
+                    <p>
+                        {{ .Scratch.Get "last_text" | safeHTML }}
+                    </p>
+                    
+                        </div>
+                        <form class="new_career" id="new_career" enctype="multipart/form-data" action="/fr/career/manoeuvre-genie-civil-commercial-residentiel" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="3pS46hzsZqDeaYGmyGBCIoKRhorttDPUm/J8obUqGF8w7Zk8F5C2RB6yzbxicdD764i80efhrD90sU9ZbZ/mVA==">
+                          <div class="b-columnar b-two-column">
+                            <div class="floatl">
+                              <input class="required" type="text" value="" name="career[name]" id="career_name" placeholder="Votre nom*" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
+                              <label for="career_name">Votre nom*</label>
+                              
+                            </div>
+                            <div class="floatl">
+                              <input class="required" type="text" value="" name="career[first_name]" id="career_first_name" placeholder="Votre prénom*">
+                              <label for="career_first_name">Votre prénom*</label>
+                              
+                            </div>
+                            <div class="floatl">
+                              <input class="required" type="text" value="" name="career[email]" id="career_email" placeholder="Votre courriel*">
+                              <label for="career_email">Votre courriel*</label>
+                              
+                            </div>
+                            <div class="floatl">
+                              <input class="required" type="text" value="" name="career[phone]" id="career_phone" placeholder="Votre téléphone*">
+                              <label for="career_phone">Votre téléphone*</label>
+                              
+                            </div>
+                          </div>
+                          <div class="floatl">
+                              <input class="required active" readonly="readonly" value="Manœuvre au génie civil commercial et résidentiel" type="text" name="career[job_title]" id="career_job_title" placeholder="Poste convoité*">
+                            <label for="career_job_title">Poste convoité*</label>
+                            
+                          </div>
+                          <div class="floatl">
+                            <input class="required" type="file" name="career[cv]" id="career_cv" placeholder="Votre CV*">
+                            <label for="career_cv">Votre CV*</label>
+                            
+                          </div>
+                          <input type="submit" name="commit" value="Envoyer">
+                    </form>  </div>
+                    </div>
+                    
+                    <script src="/javascripts/forms.js"></script>
+                    
+                    
+                                    <span style="display: none"></span>
+                    
+                              </div>
+            </div>
+        </div>
+    </main>
+    {{ partial "footer.html" .}}
+</body>
+
+</html>

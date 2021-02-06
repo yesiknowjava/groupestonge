@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ if eq .Params.title "Fondation chemin conelly" }}
+    
+    
+    {{ .Scratch.Set "img" $data.projets.fondation_chemin_connelly.img }}
+    {{ .Scratch.Set "hero_subtitle" $data.projets.fondation_chemin_connelly.hero_subtitle }}
+    {{ .Scratch.Set "hero_title" $data.projets.fondation_chemin_connelly.hero_title }}
+    {{ .Scratch.Set "alt" $data.projets.fondation_chemin_connelly.alt }}
+    {{ .Scratch.Set "home" $data.projets.fondation_chemin_connelly.home }}
+    {{ .Scratch.Set "home_url" $data.projets.fondation_chemin_connelly.home_url }}
+    {{ .Scratch.Set "projects" $data.projets.fondation_chemin_connelly.projects }}
+    {{ .Scratch.Set "projects_url" $data.projets.fondation_chemin_connelly.projects_url }}
+    {{ .Scratch.Set "project_info" $data.projets.fondation_chemin_connelly.project_info }}
+    {{ .Scratch.Set "year_title" $data.projets.fondation_chemin_connelly.year_title }}
+    {{ .Scratch.Set "year" $data.projets.fondation_chemin_connelly.year }}
+    {{ .Scratch.Set "city_title" $data.projets.fondation_chemin_connelly.city_title }}
+    {{ .Scratch.Set "city" $data.projets.fondation_chemin_connelly.city }}
+    {{ .Scratch.Set "desc_title" $data.projets.fondation_chemin_connelly.desc_title }}
+    {{ .Scratch.Set "description" $data.projets.fondation_chemin_connelly.description }}
+    {{ .Scratch.Set "quote_title" $data.projets.fondation_chemin_connelly.quote_title }}
+    {{ .Scratch.Set "quote_text" $data.projets.fondation_chemin_connelly.quote_text }}
+    {{ .Scratch.Set "quote_url" $data.projets.fondation_chemin_connelly.quote_url }}
+
+
+{{ else if eq .Params.title "Bec scie" }}
+    
+    {{ .Scratch.Set "img" $data.projets.bec_sec.img }}
+    {{ .Scratch.Set "hero_subtitle" $data.projets.bec_sec.hero_subtitle }}
+    {{ .Scratch.Set "hero_title" $data.projets.bec_sec.hero_title }}
+    {{ .Scratch.Set "alt" $data.projets.bec_sec.alt }}
+    {{ .Scratch.Set "home" $data.projets.bec_sec.home }}
+    {{ .Scratch.Set "home_url" $data.projets.bec_sec.home_url }}
+    {{ .Scratch.Set "projects" $data.projets.bec_sec.projects }}
+    {{ .Scratch.Set "projects_url" $data.projets.bec_sec.projects_url }}
+    {{ .Scratch.Set "project_info" $data.projets.bec_sec.project_info }}
+    {{ .Scratch.Set "year_title" $data.projets.bec_sec.year_title }}
+    {{ .Scratch.Set "year" $data.projets.bec_sec.year }}
+    {{ .Scratch.Set "city_title" $data.projets.bec_sec.city_title }}
+    {{ .Scratch.Set "city" $data.projets.bec_sec.city }}
+    {{ .Scratch.Set "desc_title" $data.projets.bec_sec.desc_title }}
+    {{ .Scratch.Set "description" $data.projets.bec_sec.description }}
+    {{ .Scratch.Set "quote_title" $data.projets.bec_sec.quote_title }}
+    {{ .Scratch.Set "quote_text" $data.projets.bec_sec.quote_text }}
+    {{ .Scratch.Set "quote_url" $data.projets.bec_sec.quote_url }}
+
+{{ else if eq .Params.title "Boulevard des hauteurs" }}
+    
+    {{ .Scratch.Set "img" $data.projets.boulevard_des_hauteurs.img }}
+    {{ .Scratch.Set "hero_subtitle" $data.projets.boulevard_des_hauteurs.hero_subtitle}}
+    {{ .Scratch.Set "hero_title" $data.projets.boulevard_des_hauteurs.hero_title }}
+    {{ .Scratch.Set "alt" $data.projets.boulevard_des_hauteurs.alt }}
+    {{ .Scratch.Set "home" $data.projets.boulevard_des_hauteurs.home }}
+    {{ .Scratch.Set "home_url" $data.projets.boulevard_des_hauteurs.home_url }}
+    {{ .Scratch.Set "projects" $data.projets.boulevard_des_hauteurs.projects }}
+    {{ .Scratch.Set "projects_url" $data.projets.boulevard_des_hauteurs.projects_url }}
+    {{ .Scratch.Set "project_info" $data.projets.boulevard_des_hauteurs.project_info }}
+    {{ .Scratch.Set "year_title" $data.projets.boulevard_des_hauteurs.year_title }}
+    {{ .Scratch.Set "year" $data.projets.boulevard_des_hauteurs.year }}
+    {{ .Scratch.Set "city_title" $data.projets.boulevard_des_hauteurs.city_title }}
+    {{ .Scratch.Set "city" $data.projets.boulevard_des_hauteurs.city }}
+    {{ .Scratch.Set "desc_title" $data.projets.boulevard_des_hauteurs.desc_title }}
+    {{ .Scratch.Set "description" $data.projets.boulevard_des_hauteurs.description }}
+    {{ .Scratch.Set "quote_title" $data.projets.boulevard_des_hauteurs.quote_title }}
+    {{ .Scratch.Set "quote_text" $data.projets.boulevard_des_hauteurs.quote_text }}
+    {{ .Scratch.Set "quote_url" $data.projets.boulevard_des_hauteurs.quote_url }}
+
+
+{{else  if eq .Params.title "Rue des chenese" }}
+    
+    {{ .Scratch.Set "img" $data.projets.rue_des_chenes.img }}
+    {{ .Scratch.Set "hero_subtitle" $data.projets.rue_des_chenes.hero_subtitle }}
+    {{ .Scratch.Set "hero_title" $data.projets.rue_des_chenes.hero_title }}
+    {{ .Scratch.Set "alt" $data.projets.rue_des_chenes.alt }}
+    {{ .Scratch.Set "home" $data.projets.rue_des_chenes.home }}
+    {{ .Scratch.Set "home_url" $data.projets.rue_des_chenes.home_url }}
+    {{ .Scratch.Set "projects" $data.projets.rue_des_chenes.projects }}
+    {{ .Scratch.Set "projects_url" $data.projets.rue_des_chenes.projects_url }}
+    {{ .Scratch.Set "project_info" $data.projets.rue_des_chenes.project_info }}
+    {{ .Scratch.Set "year_title" $data.projets.rue_des_chenes.year_title }}
+    {{ .Scratch.Set "year" $data.projets.rue_des_chenes.year }}
+    {{ .Scratch.Set "city_title" $data.projets.rue_des_chenes.city_title }}
+    {{ .Scratch.Set "city" $data.projets.rue_des_chenes.city }}
+    {{ .Scratch.Set "desc_title" $data.projets.rue_des_chenes.desc_title }}
+    {{ .Scratch.Set "description" $data.projets.rue_des_chenes.description }}
+    {{ .Scratch.Set "quote_title" $data.projets.rue_des_chenes.quote_title }}
+    {{ .Scratch.Set "quote_text" $data.projets.rue_des_chenes.quote_text }}
+    {{ .Scratch.Set "quote_url" $data.projets.rue_des_chenes.quote_url }}
+   
+   
+ {{ else }}
+    
+    
+    
+ {{ .Scratch.Set "img" $data.projets.bec_sec.img }}
+ {{ .Scratch.Set "hero_subtitle" $data.projets.bec_sec.hero_subtitle }}
+ {{ .Scratch.Set "hero_title" $data.projets.bec_sec.hero_title }}
+ {{ .Scratch.Set "alt" $data.projets.bec_sec.alt }}
+ {{ .Scratch.Set "home" $data.projets.bec_sec.home }}
+ {{ .Scratch.Set "home_url" $data.projets.bec_sec.home_url }}
+ {{ .Scratch.Set "projects" $data.projets.bec_sec.projects }}
+ {{ .Scratch.Set "projects_url" $data.projets.bec_sec.projects_url }}
+ {{ .Scratch.Set "project_info" $data.projets.bec_sec.project_info }}
+ {{ .Scratch.Set "year_title" $data.projets.bec_sec.year_title }}
+ {{ .Scratch.Set "year" $data.projets.bec_sec.year }}
+ {{ .Scratch.Set "city_title" $data.projets.bec_sec.city_title }}
+ {{ .Scratch.Set "city" $data.projets.bec_sec.city }}
+ {{ .Scratch.Set "desc_title" $data.projets.bec_sec.desc_title }}
+ {{ .Scratch.Set "description" $data.projets.bec_sec.description }}
+ {{ .Scratch.Set "quote_title" $data.projets.bec_sec.quote_title }}
+ {{ .Scratch.Set "quote_text" $data.projets.bec_sec.quote_text }}
+ {{ .Scratch.Set "quote_url" $data.projets.bec_sec.quote_url }}
+
+{{end}}
+    
+
+
+{{ partial "head.html" . }}
+
+<body>
+    {{ partial "header.html" .}}
+    <main role="main">
+        <div class="full-width page-title background-faded heading" id="service-title">
+            <h1 class="hook wrap"> {{ .Scratch.Get "hero_title" | safeHTML }}
+            </h1>
+        </div>
+        <div class="full-width">
+            <div class="wrap content">
+
+                <div class="full-width">
+                    <nav>
+                        <ul class="breadcrumbs">
+                            <li><a href="{{ .Scratch.Get "home_url" }}">{{ .Scratch.Get "home" }}</a></li>
+                            <li><a href="{{ .Scratch.Get "projects_url" }}">{{ .Scratch.Get "projects" }}</a></li>
+                            <li><span> {{ .Scratch.Get "hero_subtitle" | safeHTML }}
+                                </span></li>
+                        </ul>
+
+                    </nav>
+                
+                </div>
+
+                <div class="small-columnar project-details">
+                    <div class="slider">
+                        <section class="slideshow" id="project-slider">
+                            <ul class="slides">
+                                {{ range .Scratch.Get "img"}}
+                                <li class="slide" style="background-image: 
+        url('{{ .list_item | relURL }}')">
+                                </li>
+                                {{ end }}
+                                <!-- <li class="slide" style="background-image: 
+        url('/images/project/fondation-chemin-connelly/image3.jpg')">
+                                </li>
+                                <li class="slide" style="background-image: 
+        url('/images/project/fondation-chemin-connelly/image1.jpg')">
+                                </li> -->
+                            </ul>
+
+                        </section>
+                    </div>
+
+                    <div class="details">
+                        <h2>{{ .Scratch.Get "project_info" }}</h2>
+
+                        <div class="infos">
+                            <dl>
+                                <div class="def">
+                                    <dt>{{ .Scratch.Get "year_title" }}</dt>
+                                    <dd>{{ .Scratch.Get "year" }}</dd>
+                                </div>
+
+                                <div class="def">
+                                    <dt>{{ .Scratch.Get "city_title" }}</dt>
+                                    <dd>{{ .Scratch.Get "city" }}</dd>
+                                </div>
+
+                                <div class="def">
+                                    <dt>{{ .Scratch.Get "desc_title" }}</dt>
+                                    <dd>{{ .Scratch.Get "description" }}</dd>
+                                </div>
+                            </dl>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="get-quote small-columnar">
+                    <div>
+                        <div class="left">
+                            {{ .Scratch.Get "quote_title" }}
+                        </div>
+                    </div>
+                    <div>
+                        <div class="right">
+                            <div class="underline">
+                                <a href="{{ .Scratch.Get "quote_url" }}">{{ .Scratch.Get "quote_text" }}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+   {{ partial "footer.html" . }}
+</body>
+
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+        var slider = new PitekSlideshow(document.getElementById('project-slider'), {
+            duration: 4000
+        });
+        var next = document.createElement('button');
+        var prev = document.createElement('button');
+
+        next.addEventListener('click', slider.next.bind(slider));
+        next.classList.add('next');
+        prev.addEventListener('click', slider.previous.bind(slider));
+        prev.classList.add('prev');
+
+        slider.DOMElement.appendChild(next);
+        slider.DOMElement.appendChild(prev);
+    });
+</script>
+
+</html>

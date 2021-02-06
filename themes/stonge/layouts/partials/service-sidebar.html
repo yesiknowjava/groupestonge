@@ -1,0 +1,19 @@
+<aside>
+    <ul class="under-tablette breadcrumbs">
+        <li><a href="/">Accueil</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><span> Excavation générale
+            </span></li>
+    </ul>
+    {{ $data := index .context.Site.Data .context.Site.Language.Lang }}
+    <ul class="over-tablette">
+        {{ $compare_title := .params.compare_title }}
+        {{ range $data.services.services }}
+        <li>
+            <a class="{{ if eq $compare_title .compare_title }}current_page{{ end }}" href="{{ .url_link }}">{{ .title }}</a>
+        </li>
+        {{ end }}
+
+    </ul>
+
+</aside>

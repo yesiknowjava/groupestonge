@@ -1,0 +1,62 @@
+
+
+domaine_boise_roi:
+    hero_title1: "BOISÉ"
+    hero_title2: "DU ROI"
+    img: "img/domaine-boise-roi.jpg"
+    hero_subtitle: "BOISÉ DU ROI"
+    hero_subtext: "<p> For absolute peace, Le Boisé du Roi is a prime spot in the Laurentians. Surrounded by trees and vegetation, each land is intimate and in harmony with nature. Residents will be charmed by the enchanting calm of the place. Some lands are ready to build with more than 434,000p2 , ideal for small farm. </p>
+    <p> Located in the city of St-Hippolyte, Le Boisé du Roi offers residential land just 15 minutes from St- Jerome. </p>
+    <p> Le Boisé du Roi attract builders and self-builders who want land inside forest in the Laurentians. </p>"
+    info_title: "Need information about this domain?"
+    info_call: 
+        -  list_item: "450.530.1740"
+        -  list_item: "| 450.436.0526"
+
+oree_du_village: 
+    hero_title1: "L'ORÉE"
+    hero_title2: "DU VILLAGE"
+    img: "img/oree_du_village.jpg"
+    hero_subtitle: "L'ORÉE DU VILLAGE"
+    hero_subtext: "<p> The residential project L'Orée du Village offers vast residential lands and with a quick access to the Boulevard des Hauterus. Located in St-Hippolyte, L'Orée du Village allows you to live in harmony with nature while being close to the city of Saint-Jérôme.</p>
+    <p> Offering lands over 110,000p2, L'Orée du Village allows small farmhouse built on the land. Several mountain bike trails and an ice ring will be available for residents.</p>
+    <p> L' Oree du Village attract residents seeking woodlands and nature in the Laurentians, yet close of municipal services (school, grocery store, library, etc.)</p>"
+    info_title: "Need information about this domain?"
+    info_call: 
+        -  list_item: "450.530.1740"
+        -  list_item: "| 450.436.0526"
+
+
+domaine_pure_nature:
+    hero_title1: "PURE "
+    hero_title2: "NATURE"
+    img: "img/domaine-pure-nature.jpg"
+    hero_subtitle: "PURE NATURE"
+    hero_subtext: "<p>Pure Nature domain, located in St-Hippolyte, offers vast and in mountain residential lands. To respect the environment and to keep harmony with nature, deforestation required for construction should be done minimally and we require a reforestation when construction is complete.</p>
+    <p>Pure Nature project has a protected area that will be preserved and minimally landscaped area in order to benefit the residents of the area. Walking trails will be developed to allow residents to enjoy nature at its purest.</p>
+    <p>Pure Nature attract builders and self-builders who have the environment at heart and want to work in harmony with nature.</p>"
+    info_title: "Need information about this domain?"
+    info_call: 
+        -  list_item: "450.436.0525"
+        -  list_item: "| 450.820.0225"
+        -  list_item: "| 450.605.1700"
+
+
+domaine_sommet_du_lac:
+    hero_title1: "SOMMET"
+    hero_title2: "DU LAC"
+    img: "img/domaine-sommet-du-lac.jpg"
+    hero_subtitle: "SOMMET DU LAC"
+    hero_subtext: "<p>Located in St- Hippolyte, near Lake Connelly, Au Sommet du Lac area is a vast and wooded residential domain. Several lands still available, are offering spectacular views of Lake Connelly. Located in a quiet and charming area, Au Sommet du Lac will charm you with beautiful sunset.</p>
+    <p>All residents Au Sommet du Lac has access rights to Lake Connelly. With an area of 1.25 km2, Connelly Lake offers residents the opportunity to practice several water sports (boat, kayak, swim, paddle, SUP, etc.)</p>
+    <p>Au sommet du Lac attract residents Who wish to settle in the Laurentians, in a peaceful area, yet close to city services in St -Jérôme (only 15 minutes). Land for sale are also available for self-construction.</p>"
+    info_title: "Need information about this domain?"
+    info_call: 
+        -  list_item: "450.436.0525"
+        -  list_item: "| 450.820.0225"
+        -  list_item: "| 450.605.1700"
+
+
+
+
+

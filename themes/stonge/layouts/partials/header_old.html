@@ -1,0 +1,71 @@
+<header id="header-banner" role="banner" class="full-width">
+    <div class="wrap">
+        <a id="logo" href="/en">
+            <object type="image/svg+xml" data="/img/groupe-st-onge.svg">
+                <img src="{{"/img/groupe-st-onge.png" | relURL }}" alt="Groupe St-Onge">
+            </object>
+        </a>
+        <div id="menu">
+            <div id="menu-responsive">
+                <nav id="main-menu" role="navigation">
+
+                    <ul>
+                        {{ $curNode := . }}
+                    {{ range .Site.Menus.main }}
+                                            <li><a class=" {{ if or ($curNode.IsMenuCurrent "main" .) ($curNode.HasMenuCurrent "main" .) }} current_page{{ end }}"
+                                                    href="{{ .URL }}">{{ .Name }}</a></li>
+
+                                                    {{ end }}
+                                                </ul>
+
+
+                        
+                        
+                </nav>
+                <nav id="alt-menu">
+                    <ul class="inliner">
+                        <li><a href="https://www.facebook.com/Groupe-St-Onge-278956588912246/"
+                                class="fa fa-facebook" target="_blank"></a></li>
+                        <li><a href="https://plus.google.com/110603726319670951985/about" class="fa fa-google-plus"
+                                target="_blank"></a></li>
+                    </ul>
+                    <ul class="contact-info">
+                        <li>
+                            <a href="tel:4502240555">
+                                <i class="fa fa-phone"></i>450.224.0555
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <nav>
+                <span id="three-lines"><i class="fa fa-bars"></i></span>
+                <ul id="language-switcher">
+                    {{ range .AllTranslations }}
+                    {{ if (ne .Lang $.Site.Language.Lang) }}
+                    <li>
+                        <a href="{{ .Permalink }}">{{ upper .Language.Lang }}</a>
+                    </li>
+                    {{ end }}
+                    {{ end }}
+                    
+                </ul>
+
+                
+            </nav>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function () {
+            var responsiveMenu = document.getElementById("menu-responsive");
+            var threeLines = document.getElementById("three-lines");
+
+            threeLines.addEventListener('click', function () {
+                threeLines.classList.toggle('active');
+                responsiveMenu.classList.toggle('active');
+            });
+        });
+    </script>
+
+</header>

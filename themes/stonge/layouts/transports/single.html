@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<script async="" src="https://www.google-analytics.com/analytics.js"></script>
+<script type="text/javascript">
+    window["_gaUserPrefs"] = {
+        ioo: function () {
+            return true;
+        }
+    }
+</script>  
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ if eq .Params.title "pierre" }}
+
+    {{ .Scratch.Set "img" $data.transports.pierre.img }}
+    {{ .Scratch.Set "alt" $data.transports.pierre.alt }}
+    {{ .Scratch.Set "sub_title" $data.transports.pierre.sub_title }}
+    {{ .Scratch.Set "text" $data.transports.pierre.text }}
+    {{ .Scratch.Set "crushed_stones_title" $data.transports.pierre.crushed_stones_title }}
+    {{ .Scratch.Set "crushed_stones_text" $data.transports.pierre.crushed_stones_text }}
+    {{ .Scratch.Set "natural_stone_title" $data.transports.pierre.natural_stone_title }}
+    {{ .Scratch.Set "natural_stone_text" $data.transports.pierre.natural_stone_text }}
+    {{ .Scratch.Set "material_title" $data.transports.pierre.material_title }}
+    {{ .Scratch.Set "material_text" $data.transports.pierre.material_text }}
+    {{ .Scratch.Set "quote_title" $data.transports.pierre.quote_title }}
+    {{ .Scratch.Set "quote_text" $data.transports.pierre.quote_text }}
+    {{ .Scratch.Set "url" $data.transports.pierre.url }}
+{{ else }}
+
+    {{ .Scratch.Set "img" $data.transports.sable.img }}
+    {{ .Scratch.Set "alt" $data.transports.sable.alt }}
+    {{ .Scratch.Set "sub_title" $data.transports.sable.sub_title }}
+    {{ .Scratch.Set "text" $data.transports.sable.text }}
+    {{ .Scratch.Set "crushed_stones_title" $data.transports.sable.crushed_stones_title }}
+    {{ .Scratch.Set "crushed_stones_text" $data.transports.sable.crushed_stones_text }}
+    {{ .Scratch.Set "natural_stone_title" $data.transports.sable.natural_stone_title }}
+    {{ .Scratch.Set "natural_stone_text" $data.transports.sable.natural_stone_text }}
+    {{ .Scratch.Set "material_title" $data.transports.sable.material_title }}
+    {{ .Scratch.Set "material_text" $data.transports.sable.material_text }}
+    {{ .Scratch.Set "quote_title" $data.transports.sable.quote_title }}
+    {{ .Scratch.Set "quote_text" $data.transports.sable.quote_text }}
+    {{ .Scratch.Set "url" $data.transports.sable.url }}
+
+{{end}}
+
+ 
+
+
+{{ partial "head.html" .}}
+<body>
+   {{partial "header.html" .}}
+    <main role="main">
+        <div class="full-width page-title background-faded heading" id="service-title">
+            <h1 class="hook wrap">  {{ .Scratch.Get "sub_title" | safeHTML }} </h1>
+        </div>
+        <div class="full-width content-aside">
+            <div class="wrap b-columnar">
+                
+{{partial "transport_side_bar.html" (dict "context" . "params" .Params) }}
+
+                <div class="content">
+
+
+                    <div class="heading-image">
+                        <img src="{{ .Scratch.Get "img" | relURL }}" alt="Excavation">
+                    </div>
+
+                    <div class="intro">
+                        <h2>{{ .Scratch.Get "sub_title" }}</h2>
+                        <p>{{ .Scratch.Get "text" }} <a href='#' id='calc-open'>Calculate the amount of stones</a> you need to
+                            complete your work.</p>
+                    </div>
+
+                    <div class="small-columnar small-two-column">
+                        <div class="project-type">
+                    <h2>{{ .Scratch.Get "crushed_stones_title" }}</h2>
+                            <ul>
+                                {{ range .Scratch.Get "crushed_stones_text"}}
+                                <li>{{.list_item }}</li>
+                                {{end}}
+                            </ul>
+                        </div>
+
+                        <div class="project-type">
+                            <h2>{{ .Scratch.Get "natural_stone_title" }}</h2>
+                            <ul>
+                                {{ range .Scratch.Get "natural_stone_text"}}
+                                <li>{{.list_item }} </li>
+                                {{end}}
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="intro">
+                        <h2>{{ .Scratch.Get "material_title" }}</h2>
+                        <p>{{ .Scratch.Get "material_text" }}</p>
+                        </h2>
+                    </div>
+
+                    <div id="calc-overlay" class="calc-sheet hidden script">
+                        <div class="wrap">
+                            <div class="frame">
+                                <form>
+                                    <h1>Calculator</h1>
+                                    <div
+                                        class="dimensions smaller-columnar b-columnar b-four-column smaller-two-column">
+                                        <div>
+                                            <label for="longeur">Length (feet)</label>
+                                            <input type="text" id="longeur" value="0">
+                                        </div>
+                                        <div>
+                                            <label for="largeur">Width (feet)</label>
+                                            <input type="text" id="largeur" value="0">
+                                        </div>
+                                        <div>
+                                            <label for="hauteur">Height (inches)</label>
+                                            <input type="text" id="hauteur" value="0">
+                                        </div>
+                                        <div>
+                                            <label for="hauteur-pied">Height (feet)</label>
+                                            <input type="text" id="hauteur-pied" readonly value="0">
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="calculated-dimensions smaller-columnar b-columnar b-four-column smaller-two-column">
+                                        <div>
+                                            <label for="pied-cube">cu.ft.</label>
+                                            <input type="text" id="pied-cube" readonly value="0">
+                                        </div>
+                                        <div>
+                                            <label for="metre-cube">Cubic meters</label>
+                                            <input type="text" id="metre-cube" readonly value="0">
+                                        </div>
+                                        <div>
+                                            <label for="verge-cube">Cubic yard</label>
+                                            <input type="text" id="verge-cube" readonly value="0">
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="mass-total smaller-columnar b-columnar b-four-column smaller-two-column">
+                                        <div>
+                                            <label for="poids-materiaux">
+                                                Weight of materials (tons / cubic meters)
+                                            </label>
+                                            <input type="text" id="poids-materiaux" value="0">
+                                        </div>
+                                        <div>
+                                            <label for="total">Total (tons)</label>
+                                            <input type="text" id="total" readonly value="0">
+                                        </div>
+                                        <div>
+                                            <label for="total-compaction">
+                                                Total with 10% compaction
+                                            </label>
+                                            <input type="text" id="total-compaction" readonly value="0">
+                                        </div>
+                                        <div>
+                                            <label for="verge-converti-cube">
+                                                Cubic yard converted tons
+                                            </label>
+                                            <input type="text" id="verge-converti-cube" readonly value="0">
+                                        </div>
+                                    </div>
+                                </form>
+
+                                <div class="b-columnar b-two-column smaller-columnar smaller-one-column">
+
+                                    <table>
+                                        <tr>
+                                            <th colspan="2">Weight of materials (tons / cubic meters)</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Dust</th>
+                                            <td>2.4</td>
+                                        </tr>
+                                        <tr>
+                                            <th>0 - 3/4</th>
+                                            <td>2.4</td>
+                                        </tr>
+                                        <tr>
+                                            <th>0 - 2 3/4</th>
+                                            <td>2.4</td>
+                                        </tr>
+                                        <tr>
+                                            <th>0 - 1 3/4</th>
+                                            <td>2.4</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Sand A</th>
+                                            <td>1.7</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Sand B</th>
+                                            <td>2</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Boulder/Rock</th>
+                                            <td>2.2</td>
+                                        </tr>
+                                        <tr>
+                                            <th>3/4 net</th>
+                                            <td>1.6</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Top soil</th>
+                                            <td>1.2</td>
+                                        </tr>
+                                    </table>
+
+                                    <table>
+                                        <tr>
+                                            <th></th>
+                                            <th>Yards</th>
+                                            <th>Tons</th>
+                                        </tr>
+                                        <tr>
+                                            <th>10 wheels</th>
+                                            <td>16</td>
+                                            <td>15</td>
+                                        </tr>
+                                        <tr>
+                                            <th>12 wheels</th>
+                                            <td>20</td>
+                                            <td>19</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Semitrailer (29 feet)</th>
+                                            <td>28</td>
+                                            <td>25</td>
+                                        </tr>
+                                    </table>
+
+                                </div>
+                                <div class="notice">
+                                    <p>* The materials calculator indicate approximate values based on the information
+                                        you enter. Groupe St-Onge is not responsible for any errors.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <script type="text/javascript">
+                        document.addEventListener("DOMContentLoaded", function () {
+                            scriptable = document.getElementsByClassName("script");
+                            for (var i = 0, len = scriptable.length; i < len; i++) {
+                                scriptable[i].classList.remove("script");
+                            }
+
+                            overlay = document.getElementById("calc-overlay");
+                            frame = overlay.getElementsByClassName("frame")[0];
+                            closeBtn = document.createElement("button");
+                            xBtn = document.createElement("i");
+                            xBtn.classList.add("fa");
+                            xBtn.classList.add("fa-times");
+                            closeBtn.appendChild(xBtn);
+
+                            document.getElementById("calc-open").addEventListener("click", function (e) {
+                                e.preventDefault();
+                                document.getElementById("calc-overlay").classList.remove("hidden");
+                            });
+                            closeBtn.addEventListener("click", function () {
+                                document.getElementById("calc-overlay").classList.add("hidden");
+                            });
+                            frame.parentNode.appendChild(closeBtn);
+
+                            inputs = frame.querySelectorAll("input[type=text]:not([readonly])");
+                            for (var i = 0, len = inputs.length; i < len; i++) {
+                                inputs[i].addEventListener("change", function () {
+                                    calc_all();
+                                });
+                                inputs[i].addEventListener("keyup", function () {
+                                    calc_all();
+                                });
+                            }
+                        });
+
+                        function calc_pied_hauteur() {
+                            var a = document.getElementById("hauteur").value;
+                            document.getElementById("hauteur-pied").value = (parseFloat(a) / 12).toFixed(2);
+                        }
+
+                        function calc_pied_cube() {
+                            calc_pied_hauteur();
+                            var a = document.getElementById("hauteur-pied").value;
+                            var b = document.getElementById("largeur").value;
+                            var c = document.getElementById("longeur").value;
+
+                            document.getElementById("pied-cube").value = (parseFloat(a) * parseFloat(b) * parseFloat(c))
+                                .toFixed(2);
+                        }
+
+                        function calc_metre_cube() {
+                            calc_pied_cube();
+                            var a = document.getElementById("pied-cube").value;
+                            document.getElementById("metre-cube").value = (parseFloat(a) * 0.0283).toFixed(4);
+                        }
+
+                        function calc_verge_cube() {
+                            var a = document.getElementById("metre-cube").value;
+                            document.getElementById("verge-cube").value = (parseFloat(a) * 0.764).toFixed(2);
+                        }
+
+                        function calc_verge_cube_converti() {
+                            calc_total();
+                            var a = document.getElementById("total").value;
+                            document.getElementById("verge-converti-cube").value = (parseFloat(a) * 0.9).toFixed(2);
+                        }
+
+                        function calc_total() {
+                            var a = document.getElementById("poids-materiaux").value;
+
+                            calc_metre_cube();
+                            var b = document.getElementById("metre-cube").value;
+
+                            document.getElementById("total").value = (parseFloat(a) * parseFloat(b)).toFixed(2);
+                            document.getElementById("total-compaction").value = (parseFloat(a) * parseFloat(b) * 1.10)
+                                .toFixed(2);
+                        }
+
+                        function calc_all() {
+                            calc_verge_cube_converti();
+                            calc_verge_cube();
+                        }
+                    </script>
+
+
+
+
+
+                    <div class="get-quote small-columnar">
+                        <div>
+                            <div class="left">
+                                {{ .Scratch.Get "quote_title" }}
+                            </div>
+                        </div>
+                        <div>
+                            <div class="right">
+                                <div class="underline">
+                                    <a href="{{ .Scratch.Get "url" }}" >{{ .Scratch.Get "quote_text" }}</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    {{ partial "footer.html" .}}
+</body>
+
+</html>

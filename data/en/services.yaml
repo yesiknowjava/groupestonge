@@ -1,0 +1,317 @@
+hero_heading: '<em>OUR</em> SERVICES'
+hero_text: 'St-Onge Group offers its customers an effective service and
+  projects with highest industry standards. Our experienced team  will be
+  there to guide you throughout your excavation project. Whether your
+  excavation, septic system or civil engineering needs, St- Onge Group is
+  your partner of choice. For a quote, 
+  <a href="/en/contact-us">call our team now</a>.'
+hero_link: "<a href='/contact'>call our team now</a>"
+
+services:
+  - title: "Excavation"
+    url_link: "/services/excavation-generale"
+    image: "/img/excavation-generale-512.jpg"
+    alt:  "Excavation generale 512"
+    text: "Excavation service for all residentials and commercials projects ."
+    btn: "Find Out More"
+
+  - title: "Soil testing"
+    url_link: "/services/excavation-generale"
+    image: "/img/analyse-512.jpg"
+    alt:  "Excavation generale 512"
+    text: "Professional service for soil testing excavation."
+    btn: "Find Out More"
+
+  - title: "Septic installation"
+    url_link: "/services/excavation-generale"
+    image: "/img/installation-septique-512.jpg"
+    alt:  "Excavation generale 512"
+    text: "Expert advices for a septic installation or a leaching bed."
+    btn: "Find Out More"
+
+  - title: "Stones wall"
+    url_link: "/services/excavation-generale"
+    image: "/img/mur-pierre-512.jpg"
+    alt:  "Excavation generale 512"
+    text: "Professional and safe work for any stones or retaining wall projects."
+    btn: "Find Out More"
+
+  - title: "Landscaping"
+    url_link: "/services/excavation-generale"
+    image: "/img/amenagement-512.jpg"
+    alt:  "Excavation generale 512"
+    text: "For pedestrian walkways, stairs rock or retaining wall, St-Onge Group is there for you."
+    btn: "Find Out More"
+
+  - title: "Foundation excavation"
+    url_link: "/services/excavation-generale"
+    image: "/img/excavation-fondation-512.jpg"
+    alt:  "Excavation generale 512"
+    text: "For all new house project, garage addition, building expansion, etc."
+    btn: "Find Out More"
+
+  - title: "Private road"
+    url_link: "/services/excavation-generale"
+    image: "/img/chemin-512.jpg"
+    alt:  "Excavation generale 512"
+    text: "Realization of private or access road regardless field and ground."
+    btn: "Find Out More"
+
+  - title: "Building demolition"
+    url_link: "/services/excavation-generale"
+    image: "/img/demolition-512.jpg"
+    alt:  "Excavation generale 512"
+    text: "Qualified company for building demolition after a damage situation."
+    btn: "Find Out More"
+
+  - title: "Civil engineering"
+    url_link: "/services/excavation-generale"
+    image: "/img/genie-civil-512.jpg"
+    alt:  "Excavation generale 512"
+    text: "Civil engineering experts for projects such as roads, sewers, waterworks, etc."
+    btn: "Find Out More"
+
+  - title: "Deforestation"
+    url_link: "/services/excavation-generale"
+    image: "/img/deboisement-512.jpg"
+    alt:  "Excavation generale 512"
+    text: "Technical tools for a fast and safe deforestation."
+    btn: "Find Out More"
+
+  - title: "Municipal snow removal"
+    url_link: "/services/excavation-generale"
+    image: "/img/deneigement-512.jpg"
+    alt:  "Excavation generale 512"
+    text: "Snow removal company for St-Hippolyte and Ste-Sophie cities."
+    btn: "Find Out More"
+
+  - title: "Material delivery"
+    url_link: "/services/excavation-generale"
+    image: "/img/livraison-materiaux-512.jpg"
+    alt:  "Excavation generale 512"
+    text: "Material delivery for any excavation or construction project."
+    btn: "Find Out More"
+
+excavation_generale:
+    img: "/img/excavation-generale.jpg"
+    hero_title: "<em>Excavation</em> générale"
+    alt: "Excavation générale"
+    hero_subtitle: "EXCAVATION GÉNÉRALE"
+    hero_text: "
+      <p>Pour tous vos travaux d’excavation,
+      Groupe St-Onge offre ses
+      services tels : l’excavation de fondation, l’installation de fosse
+      septique, l’aménagement de terrain, le raccordement aux services et
+      bien plus encore. Groupe St-Onge peut réaliser l’étude, la gestion et
+      la réalisation de tout travaux d’excavation. Un
+      projet d’excavation en tête? Obtenez rapidement un avis professionnel
+      et une <a href='/en/contact'>estimation gratuite</a>.</p>"
+    type_project: "TYPE DE PROJETS"
+    project_text: 
+      - list_item: "Excavation résidentielle"
+      - list_item: "Excavation commerciale"
+      - list_item: "Installation septique"
+    pourquoi_title: "POURQUOI NOUS CHOISIR"
+    pourquoi_text: "Groupe St-Onge utilise des équipements adéquats pour tout travaux d’excavation demandés. Le respect des normes techniques et environnementales sont nos priorités lors d’excavation sur nos chantiers."
+    last_title: "Vous avez un projet d'excavation en tête?"
+    last_text: "OBTENEZ UNE SOUMISSION"
+    url: "/en/contact"
+
+analyse:
+    img: "/img/analyse.jpg"
+    hero_subtitle: "<em>ANALYSE</em> DE SOL"
+    hero_text: "<p>Avant tout achat d’un terrain, il est préférable d’effectuer une analyse de sol afin d’éviter toutes mauvaises surprises. Un test de sol permet de détecter les contaminants potentiels qui peuvent se trouver sur un terrain. Groupe St-Onge offre ses services d’excavation pour l’échantillonnage de sol.</p>
+
+    <p>Aussi, l’analyse de sol permet de trouver l’endroit idéal sur le terrain pour l’installation d’une fosse septique et aussi permet de determiner quel produit septique est approprié pour le terrain. Chaque chantier est différent et le test de sol permet de connaitre la densité exacte d’un terrain (boueux, vaseux, rocheux, etc.).</p>
+
+    <p>Un rapport rédigé par un technologue professionnel est donné au propriétaire lors d’une analyse de sol.</p>"
+    type_project: "TYPE DE PROJETS" 
+    project_text: 
+      - list_item: "Excavation pour test de sol"
+      - list_item: "Échantillonnage de sol"
+      - list_item: "Conseils pour installation septique"
+    pourquoi_title: " POURQUOI NOUS CHOISIR"
+    pourquoi_text: "Notre équipe est spécialisée dans l’échantillonnage et l’analyse de sol. Nous savons où creuser et quoi rechercher. Les résultats du test de sol viennent d'un laboratoire et le rapport final est rédigé par un technologue assurant ainsi des résultats de première qualité."
+    last_title: "Vous avez un projet d'excavation en tête?"
+    last_text: "OBTENEZ UNE SOUMISSION"
+    url: ""
+
+installion_septique:
+    img: "/img/installation-septique.jpg"
+    hero_subtitle: "<em>INSTALLATION</em> SEPTIQUE"
+    hero_text: "<p>
+      Une installation septique est un dispositif d’évacuation
+      et de traitement des eaux usées autonome, c’est-à-dire qu’il
+      traite et évacue les eaux usées d’une propriété isolée qui n’est
+      pas raccordée à un réseau d’égout.
+    </p>
+    <p>
+      L’installation septique choisit pour un terrain est
+      déterminée selon la superficie, la topographie, la nature, la
+      perméabilité et l’épaisseur du sol naturel en place. Une analyse
+      de sol est pré-requise avant l’installation septique.
+      Groupe St-Onge est fier d’installer les produits :
+      <a href='http://www.biofiltreecoflo.com/' target='_blank'>EcoFlo</a>
+      <a href='http://www.bionest-tech.com/' target='_blank'>Bionest</a> et
+      <a href='http://www.enviro-septic.com/' target='_blank'>Enviro-Septic</a>.
+    </p>
+    <p>
+      Groupe St-Onge offre également ses services pour la construction
+      de champ d’épuration. Le champ d’épuration est utilisé
+      pour répartir dans le sol naturel l’eau qui sort d’une fosse
+      septique et ainsi compléter son traitement par des micro-organismes
+      qui décomposent les contaminants, ce qui a pour effet de traiter
+      l’eau.
+    </p>"
+    
+    type_project: "TYPE DE PROJETS"
+    project_text: 
+      - list_item: "Analyse de sol"
+      - list_item: "Installation fosse septique"
+      - list_item: "Installation champ d'épuration"
+    pourquoi_title: " POURQUOI NOUS CHOISIR"
+    pourquoi_text: "Groupe St-Onge vous conseillera dans la gestion d’une installation spectique. Nous offrons la possibilité de gérer le projet du début à la fin, soit de contacter le laboratoire et l’ingénieur pour les plans, demander les informations nécessaires à l’inspecteur de la ville, faire l’analyse de sol et procéder à l’installation du système spectique."
+    last_title: "Vous avez un projet d'excavation en tête?"
+    last_text: "OBTENEZ UNE SOUMISSION"
+    url: "/en/contact"
+
+mur_pierre:
+    img: "/img/mur-pierre.jpg"
+    hero_subtitle: "<em>MUR</em> DE ROCHES"
+    hero_text: "<p>Groupe St-Onge offre ses services lors de la fabrication d’un mur de soutènement ou d’un mur de roches décoratif. Notre expertise ainsi que notre créativité permettent la réalisation d'un mur de roches élégant et qui réssistera au fil du temps. Lors de la création d’un mur de roches, un drain français est installé pour l’évacuation de l’eau ainsi qu’une membrane afin de retenir le gravier qui positionne les roches.<a href='/contact'> Faites appel</a>  à Groupe St-Onge pour vos projets de mur de roches.</p>"
+    type_project: "TYPE DE PROJETS"
+    project_text: 
+      - list_item: "Mur de roches décoratif"
+      - list_item: "Mur de soutènement"
+    
+    pourquoi_title: " POURQUOI NOUS CHOISIR"
+    pourquoi_text: "Nous possédons tout l’équipement adéquat pour la réalisation de mur de soutènement ou mur de roches sécuritaire. Notre équipe d’experts garantie des travaux professionnels et sans souci."
+    last_title: "Vous avez un projet d'excavation en tête?"
+    last_text: "OBTENEZ UNE SOUMISSION"
+    url: "/en/contact"
+
+
+
+
+amenagement:
+    img: "/img/amenagement.jpg"
+    hero_subtitle: "<em>AMÉNAGEMENT</em> DE TERRAIN"
+    hero_text: "<p>Groupe St-Onge offre la gestion complète de votre aménagement de terrain. Pour la construction d’un mur de roche décoratif ou d’un mur de soutènement, notre équipe d’experts assure des travaux professionnels et sans souci.</p>
+
+   <p> Groupe St-Onge réalise également la construction de marches en roches, de trottoir piétonnier et d’installation de tourbe pour un aménagement de terrain à votre goût.</p>
+
+    <p>Il est possible de faire appel à nos services pour l’empierrement de ponceau, le remplissage de terrain, l’épandage de terre tamisée, le nivellement et la finition de votre terrain.</p>
+
+   <p> Groupe St-Onge est à votre disposition pour réaliser l’aménagement de votre terrain selon vos attentes, et ce, de la conception à la réalisation. <a href='/'>Faites appel</a>Faites appel à un membre de notre équipe dès maintenant.</p>"
+    type_project: "TYPE DE PROJETS"
+    project_text: 
+      - list_item: "Trottoir piétonnier"
+      - list_item: "Mur de roches"
+      - list_item: "Mur de soutènement"
+    pourquoi_title: " POURQUOI NOUS CHOISIR"
+    pourquoi_text: "Les employés de Groupe St-Onge mettent tout leur savoir-faire et leur créativité pour créer un aménagement de terrain selon les standards les plus élevés. Les travaux sont effectués dans un environnement sécuritaire afin d’éviter tout risque d’accident sur le chantier et aussi pour les résidents."
+    last_title: "Vous avez un projet d'excavation en tête?"
+    last_text: "OBTENEZ UNE SOUMISSION"
+    url: "/en/contact"
+
+excavation_fondation:
+    img: "/img/excavation-fondation.jpg"
+    hero_subtitle: "<em>EXCAVATION</em> DE FONDATION"
+    hero_text: "<p>Groupe St-Onge est spécialisé dans l’excavation de fondation, tant dans le domaine résidentiel que commercial. Que ce soit pour des travaux d’excavation pour un projet de maison neuve, pour l’ajout d’un garage, l’agrandissement d’une maison ou d’un commerce, Groupe St-Onge réalise n'importe quel projet selon vos attentes.</p>
+
+    <p>Nous pouvons également réaliser l’excavation pour un mur de gel et aussi l’excavation pour sonotubes.</p>"
+    type_project: "TYPE DE PROJETS"
+    project_text: 
+      - list_item: "Excavation maison neuve"
+      - list_item: "Excavation garage"
+      - list_item: "Agrandissement commercial"
+    pourquoi_title: " POURQUOI NOUS CHOISIR"
+    pourquoi_text: "Notre personnel expérimenté saura vous conseiller et vous offrir un service de qualité tout en respectant les normes de construction en vigueur."
+    last_title: "Vous avez un projet d'excavation en tête?"
+    last_text: "OBTENEZ UNE SOUMISSION"
+    url: ""
+
+chemin:
+    img: "/img/chemin.jpg"
+    hero_subtitle: "<em>CHEMIN</em> D'ACCÈS"
+    hero_text: "<p>Groupe St-Onge peut fournir tous les services nécessaires pour la construction d’un chemin privé ou d’un chemin d’accès, tant dans le domaine résidentiel que commercial.</p>
+
+    <p>Pour la mise en forme d’un chemin et un nivellement de terrain sans souci, notre équipe d’experts effectue les travaux selon les règles de l’art. Il est possible de vous assister tout au long de la construction de votre chemin d’accès (préparation du site, coupe d’arbres, cueillette du bois coupé, drainage du chemin, creusage de fossets, installation de ponceaux et asphalte).</p>
+
+    <p>Nous avons l’habitude de travailler en terrain montagneux, sur des sites difficiles d’accès. Rien n’est à notre épreuve! <a href='/contact'>Faites appel</a> à notre équipe de professionnels pour la construction de votre chemin privé ou de votre chemin d’accès.</p>"
+    type_project: "TYPE DE PROJETS"
+    project_text:
+      - list_item: "Excavation chemin d'accès"
+      - list_item: "Excavation chemin privé"
+      - list_item: "Installation de ponceaux"
+    pourquoi_title: " POURQUOI NOUS CHOISIR"
+    pourquoi_text: "Nous possédons tout l’équipement adéquat pour la réalisation d'un chemin d'accès sécuritaire. Notre équipe d’experts garantie des travaux professionnels et sans souci."
+    last_title: "Vous avez un projet d'excavation en tête?"
+    last_text: "OBTENEZ UNE SOUMISSION"
+    url: ""
+
+demolition:
+    img: "/img/demolition.jpg"    
+    hero_subtitle: "<em>DÉMOLITION</em> DE BÂTIMENT"
+    hero_text: "<p>Démolir un bâtiment, qu’il soit résidentiel ou commercial, implique l’intervention d’une entreprise qualifiée. Groupe St-Onge effectue la démolition de bâtiment, peu importe l’envergure du projet. Que ce soit pour une démolition de bâtiment après un sinistre ou pour la démolition d’une vieille bâtisse, notre équipe d’experts est en mesure de démolir et de faire le remblai nécessaire pour entamer une nouvelle construction rapidement.</p>
+
+    <p>Suite à la démolition du bâtiment, Groupe St-Onge procède à l’évacuation de tous les déchets et débris de matériaux au chantier. Groupe St- Onge assure également le transport des matériaux lors de l’évacuation. Un nettoyage minutieux est fait afin d’assurer la sécurité des lieux et des résidents.</p>"
+    type_project: "TYPE DE PROJETS"
+    project_text: 
+      - list_item: "Démolition après sinistre"
+      - list_item: "Démolition de grange"
+      - list_item: "Démolition de bâtisse commerciale"
+    pourquoi_title: " POURQUOI NOUS CHOISIR"
+    pourquoi_text: "Les travaux sont effectués dans un environnement sécuritaire afin d’éviter tout risque d’accident sur le chantier et pour les résidents. Tous les débris sont ramassés assurant ainsi un endroit propre et prêt à reconstruire."
+    last_title: "Vous avez un projet d'excavation en tête?"
+    last_text: "OBTENEZ UNE SOUMISSION"
+    url: "/en/contact"
+
+genie_civil:
+    img: "/img/genie-civil.jpg"
+    hero_subtitle: "<em>GÉNIE</em> CIVIL"
+    hero_text: "<p>Depuis maintenant quelques années, Groupe St-Onge œuvre dans le domaine du génie civil dans la région des Laurentides. De la construction de routes, à la voirie, aux infrastructures et à la pose d’égouts et d’aqueducs notre département de génie civil peut répondre à vos besoins. Plusieurs projets de parcs et aménagements de villes ont été réalisés par notre équipe d’expert-conseil en génie civil.</p>
+
+    <p>Groupe St-Onge offre également ses services de location d’équipements pour tout projet de génie civil.</p>"
+    type_project: "TYPE DE PROJETS"
+    project_text: 
+      - list_item: "Piste cyclable"
+      - list_item: "Infrastructures et routes"
+      - list_item: "Égouts et aqueducs"
+    pourquoi_title: " POURQUOI NOUS CHOISIR"
+    pourquoi_text: "Groupe St-Onge est en mesure d’exécuter plusieurs types de mandats et ce, peu importe leur ampleur et leur complexité. Notre équipe professionnelle sera vous guider tout au long du processus, de la conception à la réalisation."
+    last_title: "Vous avez un projet d'excavation en tête?"
+    last_text: "OBTENEZ UNE SOUMISSION"
+    url: "/en/contact"
+  
+deboisement:
+    img: "/img/deboisement.jpg"
+    hero_subtitle: "<em>DÉBOISEMENT</em>"
+    hero_text: "<p>Pour le déboisement efficace d’un site, Groupe St-Onge possède plusieurs pelles hydrauliques avec débrouissalleuse pour déchiqueter rapidement et efficacement les arbres. Nos équipements adéquats peuvent également retirer facilement des souches, racines et des roches.</p>
+
+    <p>Le déboisement peut être nécessaire lors de la préparation d’un terrain. Groupe St-Onge effectue les travaux de façon professionnelle, en réalisant un déboisement qui respecte les normes municipales et maintient l’équilibre écologique. Lorsque le déboisement est terminé, nous nous assurons que le site sera exempt de tout résidu. Selon votre choix, vous pourrez conserver le bois pour un usage futur ou nous pourrons en disposer. Demandez une <a href='/contact'>soumission gratuite</a> dès maintenant.</p>"
+    type_project: "TYPE DE PROJETS"
+    project_text:
+      - list_item: "Terrain résidentiel"
+      - list_item: "Terrain commercial"
+    pourquoi_title: " POURQUOI NOUS CHOISIR"
+    pourquoi_text: "Chaque projet de déboisement est accomplit dans l’optique de minimiser l’impact sur le milieu ambiant. Nous effectuons des travaux de qualité et sécuritaire, et ce, en utilsant des équipements performants et adéquats selon les besoins."
+    last_title: "Vous avez un projet d'excavation en tête?"
+    last_text: "OBTENEZ UNE SOUMISSION"
+    url: "/en/contact"
+
+
+deneigement:    
+    img: "/img/deneigement.jpg"
+    hero_subtitle: "<em>DÉNEIGEMENT</em> MUNICIPAL"
+    hero_text: "<p>Groupe St-Onge procède au déneigement de plusieurs municipalités de la région des Laurentides, telles St-Hippolyte et Ste-Sophie. Grâce à notre large inventaire de camions, nous sommes en mesure de déblayer rapidement la neige dans les rues des municipalités. Pour plus d’information sur nos services de déneigement municipal, <a href='/contact'>veuillez contacter</a> notre équipe dès maintenant.</p>"
+    type_project: "TYPE DE PROJETS"
+    project_text:
+      - list_item: "DENTIFIEZ et PROTÉGEZ : Arbustes – Haies – boîte à ordures – Gazon – Boîte aux lettres – Murets."
+      - list_item: "CONDUISEZ PRUDEMENT : Surtout dans les zones dangereuses comme les courbes, les pentes et les intersections."
+      - list_item: "JOURNÉE DE CUEILLETTE : Assurez-vous que vos bacs ne soient pas dans la rue."
+    pourquoi_title: " POURQUOI NOUS CHOISIR"
+    pourquoi_text: "Nos chauffeurs compétents ainsi que nos camions bien entretenus permettent d’offrir un service de déneigement professionnel et sécuritaire pour les citoyens."
+    last_title: "Vous avez un projet d'excavation en tête?"
+    last_text: "OBTENEZ UNE SOUMISSION"
+    url: "/en/contact"

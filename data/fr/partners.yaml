@@ -1,0 +1,62 @@
+
+
+domaine_boise_roi:
+    hero_title1: "LE BOISÉE "
+    hero_title2: "DU ROI"
+    img: "img/domaine-boise-roi.jpg"
+    hero_subtitle: "LE BOISÉE DU ROI"
+    hero_subtext: "<p>For absolute peace, Le Boisé du Roi is a prime spot in the Laurentians. Surrounded by trees and vegetation, each land is intimate and in harmony with nature. Residents will be charmed by the enchanting calm of the place. Some lands are ready to build with more than 434,000p2 , ideal for small farm.</p>
+    <p>Located in the city of St-Hippolyte, Le Boisé du Roi offers residential land just 15 minutes from St- Jerome.</p>
+    <p>Le domaine Boisés du Roi vise à attirer des constructeurs et auto-constructeurs qui veulent des terrains vastes et en pleine forêt dans les Laurentides.</p>"
+    info_title: "Besoin d'information sur nos terrains?"
+    info_call: 
+        -  list_item: "450.530.1740"
+        -  list_item: "| 450.436.0526"
+
+oree_du_village:
+    hero_title1: "L'ORÉ "
+    hero_title2: "DU VILLAGE"
+    img: "img/oree_du_village.jpg"
+    hero_subtitle: "L'ORÉE DU VILLAGE"
+    hero_subtext: "<p>Le projet résidentiel l’Orée du Village offre à ses résidents des terrains vastes et boisés avec un accès rapide au boulevard des Hauteurs. Située à St-Hippolyte, le domaine l’Orée du Village vous permet de vivre en harmonie avec la nature tout en étant à proximité de la ville de Saint-Jérôme.</p>
+    <p>Offrant des terrains de plus de 110 000 p2, l’Orée du Village permet la construction de fermette sur les terrains. Plusieurs sentiers de VTT ainsi qu’un anneau de glace seront disponibles pour les résidents.</p>
+    <p>L’Orée du Village vise à attirer des résidents qui recherchent des terrains boisés et en nature dans les Laurentides, tout en étant proche des services municipaux (école, épicerie, bibliothèque, etc)
+    </p>"
+    info_title: "Besoin d'information sur nos terrains?"
+    info_call: 
+        -  list_item: "450.530.1740"
+        -  list_item: "| 450.436.0526"
+
+    
+domaine_pure_nature:
+    hero_title1: "PURE"
+    hero_title2: "NATURE"
+    img: "img/domaine-pure-nature.jpg"
+    hero_subtitle: "PURE NATURE"
+    hero_subtext: "<p>Le Domaine Pure Nature, situé à St-Hippolyte, offre à ses résidents des terrains boisés, vastes et en pleine montagne. Afin de respecter l’environnement et de garder une harmonie avec la nature, le déboisement nécessaire à la construction doit être fait de façon minimale et nous exigeons un reboisement lorsque la construction est terminée.</p>
+    <p>Le projet Pure Nature comporte une zone protégée qui sera conservée et minimalement aménagée en zone parc afin de faire profiter les résidents du domaine. Des sentiers pédestres seront aménagés afin de permettre aux résidents d’apprécier la nature à son état pur.</p>
+    <p>Pure Nature vise à attirer des constructeurs et auto-constructeurs qui ont l’environnement à coeur et qui désirent travailler en harmonie avec la nature.</p>"
+    info_title: "Besoin d'information sur nos terrains?"
+    info_call: 
+        -  list_item: "450.436.0525"
+        -  list_item: "| 450.820.0225"
+        -  list_item: "| 450.605.1700"
+
+domaine_sommet_du_lac:
+    hero_title1: "SOMMET"
+    hero_title2: "DU LAC"
+    img: "img/domaine-sommet-du-lac.jpg"
+    hero_subtitle: "SOMMET DU LAC"
+    hero_subtext: "<p>Situé à St-Hippolyte, en bordure du lac Connelly, le domaine Sommet du Lac propose des terrains résidentiels vastes et boisés. Plusieurs terrains, encore disponibles, offrent une vue spectaculaire sur le lac Connelly. Situé dans un secteur calme et enchanteur, le domaine Sommet du Lac sera vous charmer par ses beaux coucher de soleil.</p>
+    <p>Tous les résidents du domaine Sommet du Lac bénéficie d’un droit d’accès notarié au lac Connelly. D’une superficie de 1,25 km2, le lac Connelly offre aux résidents l’occasion de pratiquer plusieurs sports nautiques (bateau, kayak, baignade, pédalo, SUP, etc.)</p>
+    <p>Le domaine Sommet du Lac vise à attirer des résidents qui désirent s’établir dans les Laurentides, dans un secteur paisible, tout en étant proche des services de la ville de St-Jérôme (à seulement 15 minutes). Les terrains à vendre sont également disponible pour auto-construction.</p>"
+    info_title: "Besoin d'information sur nos terrains?"
+    info_call: 
+        -  list_item: "450.436.0525"
+        -  list_item: "| 450.820.0225"
+        -  list_item: "| 450.605.1700"
+
+
+
+
+

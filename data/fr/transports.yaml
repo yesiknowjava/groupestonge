@@ -1,0 +1,74 @@
+hero_title: "<em>LIVRAISON</em> DE MATÉRIAUX"
+hero_text:  "Groupe St-Onge offre le transport de matériaux tant dans le secteur résidentiel que commercial. Nous disposons d'une importante flotte de camions pour acheminer rapidement les matériaux à un chantier. La livraison de matériaux est effectuée par des chauffeurs qualifiés et toujours de façon sécuritaire. Nous offrons le transport de matériaux, tel sable, terre et pierres concassées ou naturelles. Calculez les quantités de matériaux dont vous avez besoin pour réaliser vos travaux."
+
+
+delivery:
+  - title: "Livraison de pierres"
+    compare_title: "pierre"
+    text: "Transport de matériaux pour tous travaux d'excavation ou de construction."
+    read_more: "EN SAVOIR PLUS"
+    url_link: "/transports/pierre"
+    image: "/img/livraison-pierre-512.jpg"
+
+  - title: "Livraison de sable et terre"
+    compare_title: "sable"
+    text: "Transport de matériaux pour tous travaux d'excavation ou de construction."
+    read_more: "EN SAVOIR PLUS"
+    url_link: "/transports/sable"
+    image: "/img/livraison-sable-512.jpg"
+
+quote_title: "Vous avez un projet d'excavation en tête?"
+quote_text: "OBTENEZ UNE SOUMISSION>>"
+quote_link: "/nous-joindre"
+
+
+pierre:
+        hero_title: "<em>LIVRAISON</em> DE PIERRES"
+        img: "/img/livraison-pierre.jpg"
+        sub_title: "LIVRAISON DE PIERRES"
+        text: "Groupe St-Onge offre la livraison de pierres concassées ou naturelles pour tous travaux d’excavation ou de construction. Que ce soit pour une petite ou grande quantité de matériaux, faites appel au Groupe St-Onge pour la livraison de matériaux. Notre équipe d’experts a les connaissances requises pour répondre à vos attentes. Nous offrons un service sécuritaire et des matériaux de qualité lors de la livraison de pierres. Calculez la quantité de pierres dont vous avez besoin pour réaliser vos travaux."
+        crushed_stones_title: "LIVRAISON PIERRES CONCASSÉES"
+        crushed_stones_text: 
+            - list_item: "0 - ⅛ (Poussière de pierre)"
+            - list_item: "0 - ¾"
+            - list_item: "0 - 2 ½"
+            - list_item: "0 - 4"
+            - list_item: "¾ (pierre à drain)"
+            - list_item: "2 - 4"
+            - list_item: "4 - 10"
+        natural_stone_title: "LIVRAISON DE PIERRE NATURELLE"
+        natural_stone_text: 
+            - list_item: "⅜ - ⅝"
+            - list_item: "⅝ - 1 ¼"
+            - list_item: "1 - 2"
+            - list_item: "2 - 6"
+        material_title: "MATÉRIAUX EN VRAC"
+        material_text: "L'achat de matériaux en vrac est également disponible. Il suffit de venir directement à nos bureaux munis d’une remorque ou d’un camion léger et nous chargerons les matériaux désirés, tels sable, gravier, terre et pierres concassées."
+        quote_title: "Vous avez un projet d'excavation en tête?"
+        quote_text: "OBTENEZ UNE SOUMISSION"
+        url: "/nous-joindre"
+
+sable:
+        hero_title: "<em>LIVRAISON</em> DE SABLE ET TERRE"
+        img: "/img/livraison-sable.jpg"
+        sub_title: "LIVRAISON DE SABLE ET TERRE"
+        text: "Groupe St-Onge offre la livraison de sable et terre tamisée pour tous travaux d’excavation ou de construction. Que ce soit pour une petite ou grande quantité de matériaux, faites appel au Groupe St-Onge pour la livraison de matériaux. Notre équipe d’experts a les connaissances requises pour répondre à vos attentes. Nous offrons un service sécuritaire et des matériaux de qualité lors de la livraison de sable et terre. Calculez les quantités de sable et/ou terre dont vous avez besoin pour réaliser vos travaux."
+        crushed_stones_title: "LIVRAISON DE SABLE"
+        crushed_stones_text:
+            - list_item: "À compaction"
+            - list_item: "Fin lavé"
+            - list_item: "À béton (filtrant)"
+            - list_item: "Filtrant Q-2, R.22"
+        natural_stone_title: "LIVRAISON DE TERRE"
+        natural_stone_text: 
+            - list_item: "Noire"
+            - list_item: "Terreau préparé"
+            - list_item: "Régulière (brune)"
+            - list_item: "Plus (brune et noire)"
+            - list_item: "Supérieure (brune, noire et compost)"
+            - list_item: "Remblai"
+        material_title: "MATÉRIAUX EN VRAC"
+        material_text: "L'achat de matériaux en vrac est également disponible. Il suffit de venir directement à nos bureaux munis d’une remorque ou d’un camion léger et nous chargerons les matériaux désirés, tels sable, gravier, terre et pierres concassées."
+        quote_title: "Vous avez un projet d'excavation en tête?"
+        quote_text: "OBTENEZ UNE SOUMISSION"
+        url: "/nous-joindre"

@@ -1,0 +1,86 @@
+quote_title: "Vous avez un projet d'excavation en tête?"
+quote_text: " OBTENEZ UNE SOUMISSION"
+quote_url: "/nous-joindre"
+hero_title: "VOTRE PARTENAIRE EN EXCAVATION DEPUIS PLUS DE 50 ANS"
+hero_text: "Chef de file dans le domaine de l’excavation, dans l’installation de fosse septique, dans les travaux de génie civil ainsi que dans la livraison de matériaux, Groupe St-Onge est la référence dans les Laurentides. Spécialiste dans le domaine de l’excavation depuis 1962, faites confiance à notre équipe d’experts. Groupe St-Onge offre à sa clientèle un service irréprochable ainsi que des travaux rencontrant les plus hauts standards de l’industrie. Notre équipe chevronnée se fera un plaisir de vous guider tout au long de vos travaux d’excavation."
+specalist_title: "NOS SPÉCIALITÉS"
+specalist:
+  - image: ""
+    title: "Excavation générale"
+    text: "Service d'excavation générale pour tous projets résidentiels et commercials."
+    url: "/services/excavation-generale"
+    btn: "EN SAVOIR PLUS"
+  - image: ""
+    title: "Installation septique"
+    text: "Conseils d'experts pour une installation de fosse septique."
+    url: "/services/installation-septique"
+    btn: "EN SAVOIR PLUS"
+  - image: ""
+    title: "Livraison de matériaux"
+    text: "Transport de matériaux pour tout travaux d'excavation ou de construction."
+    url: "/transports"
+    btn: "EN SAVOIR PLUS"
+  - image: ""
+    title: "Génie civil"
+    text: "Experts en travaux de génie civil tels : routes, voiries, égouts, aqueduc, piste cyclable."
+    url: "/services/genie-civil"
+    btn: "EN SAVOIR PLUS"
+testimonials_title: "TÉMOIGNAGES"
+testimonials: '<ul class="quote-slider-wrapper">
+            <li class="quote-slide">
+  Affabilité et travail minitieux sont les marques de commerce de tout le personnel et la direction d’excavation St-Onge. La satisfaction de la clientèle est assurée!
+  <cite>
+    <strong>Raymond Beaudelot</strong>,
+    Domaine Lamoureux à St-Hippolyte
+  </cite>
+</li>
+
+<li class="quote-slide">
+  C’était une premiere expérience de construction pour moi et l’équipe St-Onge m’a très bien conseillé. Le service était numéro un et la soumission a été respectée ! Très satisfait!
+  <cite>
+    <strong>Érik Lavoie</strong>,
+    Prévost
+  </cite>
+</li>
+
+<li class="quote-slide">
+  Depuis déjà trois ans, nous sommes fiers de travailler en collaboration avec le Groupe St-Onge. Pour tous les travaux reliés à l’excavation, nous n’hésitons pas à référer cette entreprise de confiance implantée dans notre localité depuis de nombreuses années.
+  <cite>
+    <strong>Érik Lavoie</strong>,
+    Prévost
+  </cite>
+</li>
+
+          </ul>'
+partners_title: "  NOS PARTENAIRES"
+partners:
+    - image: "img/bionest.png"
+      url: "http://www.bionest-tech.com/"
+
+    - image: "img/ecoflo.png"
+      url: "http://www.biofiltreecoflo.com/"
+
+    - image: "img/enviroseptic.png"
+      url: "http://www.enviro-septic.com/"
+
+    - image: "img/enviro_step"
+      url: "http://enviro-step.ca/"
+
+    - image: "img/boise_roi.png"
+      url: "/partenaires/domaine-boise-roi"
+
+    - image: "img/sommet_lac.png"
+      url: "/partenaires/domaine-sommet-du-lac"
+
+    - image: "img/pure_nature.png"
+      url: "/partenaires/domaine-pure-nature"
+
+    - image: "img/oree_village.png"
+      url: "/partenaires/oree-du-village"
+
+
+equipment_text: "NOUS SOMMES ÉQUIPÉS POUR RÉALISER VOS PROJETS D'EXCAVATION  "
+equipment_text1: "Pelles hydroliques et excavatrices"
+equipment_text2: "Camions 10 et 12 roues"
+equipment_text3: "Bouteurs, chargeurs et niveleuses"
+equipment_text4: "Employés hautement qualifiés"

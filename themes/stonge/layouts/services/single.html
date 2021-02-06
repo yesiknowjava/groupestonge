@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<script async="" src="https://www.google-analytics.com/analytics.js"></script>
+<script type="text/javascript">
+    window["_gaUserPrefs"] = {
+        ioo: function () {
+            return true;
+        }
+    }
+</script>
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ if eq .Params.title "excavation-generale" }}
+    {{ .Scratch.Set "img" $data.services.excavation_generale.img }}
+    {{ .Scratch.Set "alt" $data.services.excavation_generale.alt }}
+    {{ .Scratch.Set "hero_subtitle" $data.services.excavation_generale.hero_subtitle }}
+    {{ .Scratch.Set "hero_text" $data.services.excavation_generale.hero_text }}
+    {{ .Scratch.Set "type_project" $data.services.excavation_generale.type_project }}
+    {{ .Scratch.Set "project_text" $data.services.excavation_generale.project_text }}
+    {{ .Scratch.Set "pourquoi_title" $data.services.excavation_generale.pourquoi_title }}
+    {{ .Scratch.Set "pourquoi_text" $data.services.excavation_generale.pourquoi_text }}
+    {{ .Scratch.Set "last_title" $data.services.excavation_generale.last_title }}
+    {{ .Scratch.Set "last_text" $data.services.excavation_generale.last_text }}
+    {{ .Scratch.Set "url" $data.services.excavation_generale.url }}
+
+{{ else if eq .Params.title "analyse" }}
+    {{ .Scratch.Set "img" $data.services.analyse.img }}
+    {{ .Scratch.Set "alt" $data.services.analyse.alt }}
+    {{ .Scratch.Set "hero_subtitle" $data.services.analyse.hero_subtitle }}
+    {{ .Scratch.Set "hero_text" $data.services.analyse.hero_text }}
+    {{ .Scratch.Set "type_project" $data.services.analyse.type_project }}
+    {{ .Scratch.Set "project_text" $data.services.analyse.project_text }}
+    {{ .Scratch.Set "pourquoi_title" $data.services.analyse.pourquoi_title }}
+    {{ .Scratch.Set "pourquoi_text" $data.services.analyse.pourquoi_text }}
+    {{ .Scratch.Set "last_title" $data.services.analyse.last_title }}
+    {{ .Scratch.Set "last_text" $data.services.analyse.last_text }}
+    {{ .Scratch.Set "url" $data.services.analyse.url }}
+
+{{ else if eq .Params.title "installion-septique" }}
+    {{ .Scratch.Set "img" $data.services.installion_septique.img }}
+    {{ .Scratch.Set "alt" $data.services.installion_septique.alt }}
+    {{ .Scratch.Set "hero_subtitle" $data.services.installion_septique.hero_subtitle }}
+    {{ .Scratch.Set "hero_text" $data.services.installion_septique.hero_text }}
+    {{ .Scratch.Set "type_project" $data.services.installion_septique.type_project }}
+    {{ .Scratch.Set "project_text" $data.services.installion_septique.project_text }}
+    {{ .Scratch.Set "pourquoi_title" $data.services.installion_septique.pourquoi_title }}
+    {{ .Scratch.Set "pourquoi_text" $data.services.installion_septique.pourquoi_text }}
+    {{ .Scratch.Set "last_title" $data.services.installion_septique.last_title }}
+    {{ .Scratch.Set "last_text" $data.services.installion_septique.last_text }}
+    {{ .Scratch.Set "url" $data.services.installion_septique.url }}
+{{ else if eq .Params.title "mur-pierre" }}
+    {{ .Scratch.Set "img" $data.services.mur_pierre.img }}
+    {{ .Scratch.Set "alt" $data.services.mur_pierre.alt }}
+    {{ .Scratch.Set "hero_subtitle" $data.services.mur_pierre.hero_subtitle }}
+    {{ .Scratch.Set "hero_text" $data.services.mur_pierre.hero_text }}
+    {{ .Scratch.Set "type_project" $data.services.mur_pierre.type_project }}
+    {{ .Scratch.Set "project_text" $data.services.mur_pierre.project_text }}
+    {{ .Scratch.Set "pourquoi_title" $data.services.mur_pierre.pourquoi_title }}
+    {{ .Scratch.Set "pourquoi_text" $data.services.mur_pierre.pourquoi_text }}
+    {{ .Scratch.Set "last_title" $data.services.mur_pierre.last_title }}
+    {{ .Scratch.Set "last_text" $data.services.mur_pierre.last_text }}
+    {{ .Scratch.Set "url" $data.services.mur_pierre.url }}
+
+{{ else if eq .Params.title "amenagement" }}
+    {{ .Scratch.Set "img" $data.services.amenagement.img }}
+    {{ .Scratch.Set "alt" $data.services.amenagement.alt }}
+    {{ .Scratch.Set "hero_subtitle" $data.services.amenagement.hero_subtitle }}
+    {{ .Scratch.Set "hero_text" $data.services.amenagement.hero_text }}
+    {{ .Scratch.Set "type_project" $data.services.amenagement.type_project }}
+    {{ .Scratch.Set "project_text" $data.services.amenagement.project_text }}
+    {{ .Scratch.Set "pourquoi_title" $data.services.amenagement.pourquoi_title }}
+    {{ .Scratch.Set "pourquoi_text" $data.services.amenagement.pourquoi_text }}
+    {{ .Scratch.Set "last_title" $data.services.amenagement.last_title }}
+    {{ .Scratch.Set "last_text" $data.services.amenagement.last_text }}
+    {{ .Scratch.Set "url" $data.services.amenagement.url }}
+
+{{ else if eq .Params.title "excavation-fondation" }}
+    {{ .Scratch.Set "img" $data.services.excavation_fondation.img }}
+    {{ .Scratch.Set "alt" $data.services.excavation_fondation.alt }}
+    {{ .Scratch.Set "hero_subtitle" $data.services.excavation_fondation.hero_subtitle }}
+    {{ .Scratch.Set "hero_text" $data.services.excavation_fondation.hero_text }}
+    {{ .Scratch.Set "type_project" $data.services.excavation_fondation.type_project }}
+    {{ .Scratch.Set "project_text" $data.services.excavation_fondation.project_text }}
+    {{ .Scratch.Set "pourquoi_title" $data.services.excavation_fondation.pourquoi_title }}
+    {{ .Scratch.Set "pourquoi_text" $data.services.excavation_fondation.pourquoi_text }}
+    {{ .Scratch.Set "last_title" $data.services.excavation_fondation.last_title }}
+    {{ .Scratch.Set "last_text" $data.services.excavation_fondation.last_text }}
+    {{ .Scratch.Set "url" $data.services.excavation_fondation.url }}
+
+{{ else if eq .Params.title "chemin" }}
+    {{ .Scratch.Set "img" $data.services.chemin.img }}
+    {{ .Scratch.Set "alt" $data.services.chemin.alt }}
+    {{ .Scratch.Set "hero_subtitle" $data.services.chemin.hero_subtitle }}
+    {{ .Scratch.Set "hero_text" $data.services.chemin.hero_text }}
+    {{ .Scratch.Set "type_project" $data.services.chemin.type_project }}
+    {{ .Scratch.Set "project_text" $data.services.chemin.project_text }}
+    {{ .Scratch.Set "pourquoi_title" $data.services.chemin.pourquoi_title }}
+    {{ .Scratch.Set "pourquoi_text" $data.services.chemin.pourquoi_text }}
+    {{ .Scratch.Set "last_title" $data.services.chemin.last_title }}
+    {{ .Scratch.Set "last_text" $data.services.chemin.last_text }}
+    {{ .Scratch.Set "url" $data.services.chemin.url }}
+
+{{ else if eq .Params.title "demolition" }}
+    {{ .Scratch.Set "img" $data.services.demolition.img }}
+    {{ .Scratch.Set "alt" $data.services.demolition.alt }}
+    {{ .Scratch.Set "hero_subtitle" $data.services.demolition.hero_subtitle }}
+    {{ .Scratch.Set "hero_text" $data.services.demolition.hero_text }}
+    {{ .Scratch.Set "type_project" $data.services.demolition.type_project }}
+    {{ .Scratch.Set "project_text" $data.services.demolition.project_text }}
+    {{ .Scratch.Set "pourquoi_title" $data.services.demolition.pourquoi_title }}
+    {{ .Scratch.Set "pourquoi_text" $data.services.demolition.pourquoi_text }}
+    {{ .Scratch.Set "last_title" $data.services.demolition.last_title }}
+    {{ .Scratch.Set "last_text" $data.services.demolition.last_text }}
+    {{ .Scratch.Set "url" $data.services.demolition.url }}
+
+{{ else if eq .Params.title "genie-civil" }}
+    {{ .Scratch.Set "img" $data.services.genie_civil.img }}
+    {{ .Scratch.Set "alt" $data.services.genie_civil.alt }}
+    {{ .Scratch.Set "hero_subtitle" $data.services.genie_civil.hero_subtitle }}
+    {{ .Scratch.Set "hero_text" $data.services.genie_civil.hero_text }}
+    {{ .Scratch.Set "type_project" $data.services.genie_civil.type_project }}
+    {{ .Scratch.Set "project_text" $data.services.genie_civil.project_text }}
+    {{ .Scratch.Set "pourquoi_title" $data.services.genie_civil.pourquoi_title }}
+    {{ .Scratch.Set "pourquoi_text" $data.services.genie_civil.pourquoi_text }}
+    {{ .Scratch.Set "last_title" $data.services.genie_civil.last_title }}
+    {{ .Scratch.Set "last_text" $data.services.genie_civil.last_text }}
+    {{ .Scratch.Set "url" $data.services.genie_civil.url }}
+
+
+ {{ else if eq .Params.title "deboisement" }}
+    {{ .Scratch.Set "img" $data.services.deboisement.img }}
+    {{ .Scratch.Set "alt" $data.services.deboisement.alt }}
+    {{ .Scratch.Set "hero_subtitle" $data.services.deboisement.hero_subtitle }}
+    {{ .Scratch.Set "hero_text" $data.services.deboisement.hero_text }}
+    {{ .Scratch.Set "type_project" $data.services.deboisement.type_project }}
+    {{ .Scratch.Set "project_text" $data.services.deboisement.project_text }}
+    {{ .Scratch.Set "pourquoi_title" $data.services.deboisement.pourquoi_title }}
+    {{ .Scratch.Set "pourquoi_text" $data.services.deboisement.pourquoi_text }}
+    {{ .Scratch.Set "last_title" $data.services.deboisement.last_title }}
+    {{ .Scratch.Set "last_text" $data.services.deboisement.last_text }}
+    {{ .Scratch.Set "url" $data.services.deboisement.url }}
+
+{{ else }}
+    {{ .Scratch.Set "img" $data.services.deneigement.img }}
+    {{ .Scratch.Set "alt" $data.services.deneigement.alt }}
+    {{ .Scratch.Set "hero_subtitle" $data.services.deneigement.hero_subtitle }}
+    {{ .Scratch.Set "hero_text" $data.services.deneigement.hero_text }}
+    {{ .Scratch.Set "type_project" $data.services.deneigement.type_project }}
+    {{ .Scratch.Set "project_text" $data.services.deneigement.project_text }}
+    {{ .Scratch.Set "pourquoi_title" $data.services.deneigement.pourquoi_title }}
+    {{ .Scratch.Set "pourquoi_text" $data.services.deneigement.pourquoi_text }}
+    {{ .Scratch.Set "last_title" $data.services.deneigement.last_title }}
+    {{ .Scratch.Set "last_text" $data.services.deneigement.last_text }}
+    {{ .Scratch.Set "url" $data.services.deneigement.url }}
+{{ end }}
+
+{{partial "head.html" . }}
+
+<body>
+    <div style="display: none;"></div>
+    {{ partial "header.html" . }}
+    <main role="main">
+        <div class="full-width page-title background-faded heading" id="service-title">
+            <h1 class="hook wrap">{{ .Scratch.Get "hero_subtitle" | safeHTML }}
+            </h1>
+        </div>
+        <div class="full-width content-aside">
+            <div class="wrap b-columnar">
+                {{ partial "service-sidebar.html" (dict "context" . "params" .Params) }}
+                <div class="content">
+
+                    <div class="heading-image">
+                        <img alt="{{ .Scratch.Get "alt" | relURL }}" src="{{ .Scratch.Get "img" | relURL }}">
+                    </div>
+
+                    <div class="intro">
+                        <h2>{{ .Scratch.Get "hero_subtitle" | safeHTML }}</h2>
+
+                          {{ .Scratch.Get "hero_text" | safeHTML }}
+
+                    </div>
+
+
+                    <div class="project-why-us small-columnar small-40-60">
+                        <div class="project-type">
+                            <h2>{{ .Scratch.Get "type_project" }}</h2>
+                            <ul>
+                              {{ range .Scratch.Get "project_text"}}
+                              <li>{{ .list_item }}</li>
+                              {{ end }}
+                            </ul>
+
+                        </div>
+                        <div class="why-us">
+                            <h2>{{ .Scratch.Get "pourquoi_title" }}</h2>
+                            <p>{{ .Scratch.Get "pourquoi_text" }}</p>
+
+                        </div>
+                    </div>
+
+
+                    <div class="get-quote small-columnar">
+                        <div>
+                            <div class="left">
+                                Vous avez un projet d'excavation en tête?
+                            </div>
+                        </div>
+                        <div>
+                            <div class="right">
+                                <div class="underline">
+                                    <a href="{{ .Scratch.Get "url" }}">Obtenez une soumission</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+{{partial "footer.html" . }}
+
+    <div class="nsc-content-camera nsc-hide" style="top: 10px; left: 10px;">
+        <div class="nsc-content-camera-buttons" flex="none" layout="row" layout-align="start start">
+            <button class="nsc-content-camera-button nsc-hide" type="button" id="nsc_video_camera_collapse">
+                <span class="nsc-icon nsc-icon-panel-collapse"></span>
+            </button>
+            <button class="nsc-content-camera-button" type="button" id="nsc_video_camera_expand">
+                <span class="nsc-icon nsc-icon-panel-expand"></span>
+            </button>
+            <button class="nsc-content-camera-button" type="button" id="nsc_video_camera_close">
+                <span class="nsc-icon nsc-icon-panel-close"></span>
+            </button>
+        </div>
+        <div class="nsc-content-camera-container">
+            <div class="nsc-content-camera-shadow"></div>
+        </div>
+    </div>
+</body>
+
+</html>

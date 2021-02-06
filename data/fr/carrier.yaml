@@ -1,0 +1,85 @@
+hero_title: "<em>CARRIÈRES</em>"
+img: "img/carriere.jpg"
+text: "Travailler chez Groupe St-Onge, c'est faire partie d'une équipe chevronnée et passionnée. Notre réussite commence avec vous."
+btn: "ENVOYER"
+
+sidebar_links:
+  - title: "Manœuvre au génie civil commercial et résidentiel"
+    compare_title: "pierre"
+    text: "Transport de matériaux pour tous travaux d'excavation ou de construction."
+    read_more: "EN SAVOIR PLUS"
+    url_link: "/career/manoeuvre-genie-civil-commercial-residentiel"
+    image: "/img/livraison-pierre-512.jpg"
+
+  - title: "Chauffeur de camions Classe 1 et 3"
+    compare_title: "sable"
+    text: "Transport de matériaux pour tous travaux d'excavation ou de construction."
+    read_more: "EN SAVOIR PLUS"
+    url_link: "/career/chauffeur_de_camions"
+    image: "/img/livraison-sable-512.jpg"
+
+
+manoeuvre:
+    img: "img/carriere.jpg"
+    main_title: "Manœuvre au génie civil commercial et résidentiel"
+    hero_subtitle: "<em>MANŒUVRE</em> AU GÉNIE CIVIL COMMERCIAL ET RÉSIDENTIEL"
+    hero_subtext: "Le Groupe St-Onge est une entreprise établie dans la région des basses Laurentides depuis plus de 50 ans. L'entreprise a pour mission d’offrir un service exceptionnel dans la réalisation de travaux d’excavation, de génie civil et de déneigement municipal, en respectant les plus hauts standards de l’industrie tant au niveau local que régional, tout en demeurant en constante évolution par rapport au marché."
+    responsiblites_title: "RESPONSABILITÉS"
+    responsiblities_text: "La personne responsable devra préparer les niveaux, travailler physiquement, lecture de plans et rédiger rapport quotidien. Le candidat devra connaître la réglementation reliée au génie civil, au commercial, au résidentiel et à la santé et sécurité sur chantier. Il doit avoir la facilité à lire des plans, à travailler avec un niveau rotatif et les outils de manœuvre."
+    criter_title: "CRITÈRES D'EMPLOI ET PROFIL DE L’INDIVIDU"
+    criter_text: 
+        - list_item: "Expérience comme chef d'équipe et permis de conduire classe 1-3 (un atout)"
+        - list_item: "5 années d’expérience"
+        - list_item: "Connaissance des chantiers de construction reliée au génie civil, résidentiel et commercial"
+        - list_item: "Expérience en installation de fosses septiques (Champs d’épuration, Ecoflo, Bionest, etc.)"
+        - list_item: "Expérience en déneigement"
+        - list_item: "Très bonne connaissance des normes de conduite"
+        - list_item: "Connaissances générales en mécanique"
+        - list_item: "Carte ASP et CCQ obligatoire"
+        - list_item: "Dynamique, positif et motivé"
+        - list_item: "Démontre de l'initiative"
+        - list_item: "Aime le travail d'équipe et la collaboration"
+        - list_item: "Polyvalent et autonome"
+        - list_item: "Capacité à prendre certaines décisions sur le chantier"
+
+    info_title: "INFORMATIONS ADDITIONNELLES"
+    info_text:
+        - list_item: "Horaire fixe ou variable (jour et sur appel)"
+        - list_item: "Date d'entrée en fonction : mai 2017"
+        - list_item: "Conditions salariales : selon convention CCQ et taux hors CCQ à discuter"
+    last_text: '<strong>LE DÉFI VOUS INTÉRESSE !</strong> Veuillez faire parvenir votre curriculum vitae.'
+
+
+chauffeur_de_camions:
+    hero_subtitle: "<em>CHAUFFEUR</em> DE CAMIONS CLASSE 1 ET 3"
+    img: "img/carriere.jpg"
+    hero_subtext: "Le Groupe St-Onge est une entreprise établie dans la région des basses Laurentides depuis plus de 50 ans. L'entreprise offre des services d'excavation, de génie civil et de déneigement municipal."
+    responsiblites_title: "RESPONSABILITÉS"
+    responsiblites_text: "La personne recherchée devra être en mesure de conduire un camion 10-12 roues, semi-remorque, fardier (transport de machineries lourdes). Le chauffeur d’équipement lourd est responsable d’acheminer la matière première sur les différents chantiers, effectuer le transfert des équipements."
+    crite_title: "CRITÈRES D'EMPLOI ET PROFIL DE L’INDIVIDU"
+    criter_text: 
+        - list_item: "Détenir un permis de conduire classe 1 et 3"
+        - list_item: "Expérience de conduite 2-3 ans"
+        - list_item: "Avoir un dossier de conduite impeccable"
+        - list_item: "Connaissance des chantiers de construction résidentielle et commerciale (atout)"
+        - list_item: "Expérience en déneigement"
+        - list_item: "Très bonne connaissance des normes de conduite"
+        - list_item: "Connaissances générales en mécanique"
+        - list_item: "Carte ASP"
+        - list_item: "Dynamique, positif et motivé"
+        - list_item: "Démontre de l'initiative"
+        - list_item: "Aime le travail d'équipe et la collaboration"
+    info_title: "INFORMATIONS ADDITIONNELLES"
+    info_text:
+        - list_item: "Horaire fixe ou variable (jour, soir, et sur appel)"
+        - list_item: "Date d'entrée en fonction : dès que possible"
+        - list_item: "Conditions salariales : à discuter selon expérience"
+    last_text: "LE DÉFI VOUS INTÉRESSE ! Veuillez faire parvenir votre curriculum vitae."
+
+
+
+
+
+
+
+

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+    {{ $data := index .Site.Data .Site.Language.Lang }}
+{{ partial "head.html" . }}
+<body>
+    {{ partial "header.html" .}}
+    <main role="main">
+        <div class="full-width page-title background-faded heading" id="service-title">
+            <h1 class="hook wrap">
+                {{ $data.projets.hero_title | safeHTML  }}
+            </h1>
+        </div>
+        </div>
+        <div class="full-width">
+
+
+
+            <div class="wrap content">
+                <!--<div>
+    <nav class="sort-project">
+      <ul>
+        <li>
+          <span class="project-selector active" data-project-selector="all">
+            All
+          </span>
+        </li>
+        <li>
+          <span class="project-selector" data-project-selector="residential">
+            Residential
+          </span>
+        </li>
+        <li>
+          <span class="project-selector" data-project-selector="commercial">
+            Commercial
+          </span>
+        </li>
+        <li>
+          <span class="project-selector" data-project-selector="genie-civil">
+            Civil engineering
+          </span>
+        </li>
+      </ul>
+    </nav>
+  </div> -->
+
+                <div class="projects b-columnar b-three-column small-columnar small-two-column">
+                    {{ range $data.projets.projects  }}
+                    <figure class="project" data-project-type="all residential">
+                        <a href="{{ .url }}">
+                            <img src="{{ .img | relURL }}" alt="Image1" />
+                            <figcaption>
+                                <div class="project-hover">
+                                    <h3>{{ .text_over }}</h3>
+                                </div>
+                            </figcaption>
+                        </a></figure>
+
+                        {{end}}
+                </div>
+
+                <div class="get-quote small-columnar">
+                    <div>
+                        <div class="left">
+                            {{ $data.projets.quote_title }}
+                        </div>
+                    </div>
+                    <div>
+                        <div class="right">
+                            <div class="underline">
+                                <a href="{{ $data.projets.url }}">{{ $data.projets.quote_text }}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script src="/javascripts/project_selector.js"></script>
+
+        </div>
+    </main>
+    {{ partial "footer.html" .}}
+</body>
+
+</html>

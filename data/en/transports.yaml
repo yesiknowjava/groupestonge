@@ -1,0 +1,73 @@
+hero_title: "<em>MATERIAL</em> DELIVERY"
+hero_text: "St-Onge Group offers material delivery in both residential and commercial area. We have a large fleet trucks to quickly deliver the materials to a job site. The materials delivery is carried out by professionals and always safely. We offer transportation of materials, such as sand, soil and crushed or natural stones. Calculate the amount of materials you need to complete your work."
+delivery:
+  - title: "Stone delivery"
+    image: "/img/livraison-pierre-512.jpg"
+    text: "Materials delivery for any excavation or construction project." 
+    read_more: "READ MORE"
+    url_link: "/en/transports/pierre"
+    
+
+  - title: "Sand and soil delivery"
+    text: "Material delivery for any excavation or construction project."
+    image: "/img/livraison-sable-512.jpg"
+    read_more: "READ MORE"
+    url_link: "/en/transports/sable"
+    
+
+quote_title: "An excavation project in mind?"
+quote_text: "GET A QUTE>>"
+quote_link: 
+
+pierre:
+        hero_title: "<em>STONE</em> DELIVERY"
+        img: "/img/livraison-pierre.jpg"
+        sub_title: "STONE DELIVERY"
+        text: "St-Onge Group offers natural or crushed stone delivery for any excavation or construction project. Whether for a small or large amount of materials, call the St-Onge Group for the delivery of materials. Our team of experts thas the knowledge required to meet your expectations."
+        crushed_stones_title: "CRUSHED STONES DELIVERY"
+        crushed_stones_text: 
+            - list_item: "0 - ⅛ (Stone dust)"
+            - list_item: "0 - ¾"
+            - list_item: "0 - 2 ½"
+            - list_item: "0 - 4"
+            - list_item: "¾ (Drain stone)"
+            - list_item: "2 - 4"
+            - list_item: "4 - 10"
+        natural_stone_title: "NATURAL STONE DELIVERY"
+        natural_stone_text: 
+            - list_item: "⅜ - ⅝"
+            - list_item: "⅝ - 1 ¼"
+            - list_item: "1 - 2"
+            - list_item: "2 - 6"
+        material_title: "BULK MATERIALS"
+        material_text: "A bulk materials service is available at our office. Just come equipped with a trailer or light truck and we will load the desired materials, such as sand, gravel, crushed stone and soil."
+        quote_title: "An excavation project in mind?"
+        quote_text: "GET A QUOTE"
+        url: "/en/contact"
+
+sable:
+        hero_subtitle: "<em>MATERIAL</em> DELIVERY"
+        img: "/img/livraison-sable.jpg"
+        sub_title: "SAND AND SOIL DELIVERY"
+        text: "St-Onge Group offers sand and soil delivery for any excavation or construction project. Whether for a small or large quantities of materials, call St-Onge Group for any delivery of materials. Our team of experts has the knowledge required to meet your expectations."
+        crushed_stones_title: "SAND DELIVERY"
+        crushed_stones_text: 
+            - list_item: "Compaction"
+            - list_item: "Fine"
+            - list_item: "Concrete (filtering)"
+            - list_item: "Filtering Q-2, R.22"
+        
+        natural_stone_title: " SOIL DELIVERY"
+        natural_stone_text:
+            - list_item: "Black"
+            - list_item: "Mold"
+            - list_item: "Regular (brown)"
+            - list_item: "Plus (brown & black)"
+            - list_item: "Superior (brown, black et compost)"
+            - list_item: "Remblai"
+            
+        material_title: "BULK MATERIALS"
+        material_text: "A bulk materials service is available at our office. Just come equipped with a trailer or light truck and we will load the desired materials, such as sand, gravel, crushed stone and soil."
+        quote_title: "An excavation project in mind?"
+        quote_text: "GET A QUOTE"
+        url: "/en/contact/"

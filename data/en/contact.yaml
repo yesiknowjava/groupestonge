@@ -1,0 +1,58 @@
+hero_title: "<em>CONTACT US</em>/ BID RESQUEST"
+request_title: "BID REQUEST"
+request_text: "<div class='explain'>
+      <h2>Bid request</h2>
+      <p> An excavation project in mind?<br> Any questions about septic system installation?<br> Need stones for your landscaping? </p> <p> Our team is here to help! </p>
+    </div>"
+office_title: "HEAD OFFICE"
+office_text: "<div class='contact-info'>
+      <h2>Head office</h2>
+      <ul>
+        <li>
+          <i class='fa fa-map-marker'></i>
+          <a href='https://www.google.ca/maps/place/1075+Croissant+Des+Hauteurs,+Saint-Hippolyte,+QC+J8A+0A5/' target='_blank'>
+            <span class='solidary-line'>1075 Croissant des Hauteurs,</span>
+            <span class='solidary-line'>St-Hippolyte J8A 0A5</span>
+          </a>
+        </li>
+        <li>
+          <i class='fa fa-phone'></i>
+          <a href='tel:4502240555'>450.224.0555</a>
+        </li>
+        <li>
+          <i class='fa fa-fax'></i>
+          <a href='tel:4502244550'>450.224.4550</a>
+        </li>
+        <li>
+          <i class='fa fa-envelope'></i>
+          <a href='mailto:info@groupestonge.com'>info@groupestonge.com</a>
+        </li>
+        <li>
+          <i class='icon-rbq'></i>
+          <span>2423-7190-25</span>
+        </li>
+        <li>
+          <i class='fa fa-clock-o'></i>
+          <span>
+            <span class='solidary-line'>Monday to Thursday: 8 h à 17 h</span><br> <span class='solidary-line'>Friday: 8 h à 16 h</span>
+          </span>
+        </li></ul>
+      </div>"
+carreer_title: "CARREER"
+carreer_text: "<div class='employ'>
+        <h2>Carreer</h2>
+        <ul>
+          <li>
+            <a class='button' href='/en/career'>Apply for a job</a>
+          </li>
+          
+        </ul>
+      </div>"
+
+name: "Name*"
+email: "Email*"
+phone: "Phone*"
+address: "Project address*"
+date: "Date of works*"
+work: "Work description*"
+send: "SEND"

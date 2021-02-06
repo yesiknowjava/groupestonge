@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+    {{ if eq .Params.title "domaine_boise_roi" }}
+    {{ .Scratch.Set "hero_title1" $data.partners.domaine_boise_roi.hero_title1 }}
+    {{ .Scratch.Set "hero_title2" $data.partners.domaine_boise_roi.hero_title2 }}
+    {{ .Scratch.Set "img" $data.partners.domaine_boise_roi.img }}
+    {{ .Scratch.Set "alt" $data.partners.domaine_boise_roi.alt }}
+    {{ .Scratch.Set "hero_subtitle" $data.partners.domaine_boise_roi.hero_subtitle }}
+    {{ .Scratch.Set "hero_subtext" $data.partners.domaine_boise_roi.hero_subtext }}
+    {{ .Scratch.Set "info_title" $data.partners.domaine_boise_roi.info_title }}
+    {{ .Scratch.Set "info_call" $data.partners.domaine_boise_roi.info_call }}
+
+
+{{ else if eq .Params.title "oree_du_village" }}
+    {{ .Scratch.Set "hero_title1" $data.partners.oree_du_village.hero_title1 }}
+    {{ .Scratch.Set "hero_title2" $data.partners.oree_du_village.hero_title2 }}
+    {{ .Scratch.Set "img" $data.partners.oree_du_village.img }}
+    {{ .Scratch.Set "alt" $data.partners.oree_du_village.alt }}
+    {{ .Scratch.Set "hero_subtitle" $data.partners.oree_du_village.hero_subtitle }}
+    {{ .Scratch.Set "hero_subtext" $data.partners.oree_du_village.hero_subtext }}
+    {{ .Scratch.Set "info_title" $data.partners.oree_du_village.info_title }}
+    {{ .Scratch.Set "info_call" $data.partners.oree_du_village.info_call }}
+
+{{ else if eq .Params.title "domaine_pure_nature" }}
+
+    {{ .Scratch.Set "hero_title1" $data.partners.domaine_pure_nature.hero_title1 }}
+    {{ .Scratch.Set "hero_title2" $data.partners.domaine_pure_nature.hero_title2 }}
+    {{ .Scratch.Set "img" $data.partners.domaine_pure_nature.img }}
+    {{ .Scratch.Set "alt" $data.partners.domaine_pure_nature.alt }}
+    {{ .Scratch.Set "hero_subtitle" $data.partners.domaine_pure_nature.hero_subtitle }}
+    {{ .Scratch.Set "hero_subtext" $data.partners.domaine_pure_nature.hero_subtext }}
+    {{ .Scratch.Set "info_title" $data.partners.domaine_pure_nature.info_title }}
+    {{ .Scratch.Set "info_call" $data.partners.domaine_pure_nature.info_call }}
+
+
+{{ else }}
+
+    {{ .Scratch.Set "hero_title1" $data.partners.domaine_sommet_du_lac.hero_title1 }}
+    {{ .Scratch.Set "hero_title2" $data.partners.domaine_sommet_du_lac.hero_title2 }}
+    {{ .Scratch.Set "img" $data.partners.domaine_sommet_du_lac.img }}
+    {{ .Scratch.Set "alt" $data.partners.domaine_sommet_du_lac.alt }}
+    {{ .Scratch.Set "hero_subtitle" $data.partners.domaine_sommet_du_lac.hero_subtitle }}
+    {{ .Scratch.Set "hero_subtext" $data.partners.domaine_sommet_du_lac.hero_subtext }}
+    {{ .Scratch.Set "info_title" $data.partners.domaine_sommet_du_lac.info_title }}
+    {{ .Scratch.Set "info_call" $data.partners.domaine_sommet_du_lac.info_call }}
+
+{{ end }}
+
+
+
+
+
+{{ partial "head.html" .}}
+<body>
+   {{ partial "header.html" . }}
+    <main role="main">
+        <div class="full-width page-title background-faded heading" id="service-title">
+            <h1 class="hook wrap">
+                <!-- <em>Mots en orange</em> Mot en blanc -->
+                <em>{{ .Scratch.Get "hero_title1" | safeHTML }}</em> {{ .Scratch.Get "hero_title2" | safeHTML }}
+            </h1>
+        </div>
+        <div class="full-width content-aside">
+            <div class="wrap b-columnar">
+                <aside>
+                    <ul class="under-tablette breadcrumbs">
+                        <li><a href="/">Home</a></li>
+                        <li><span>
+                            {{ .Scratch.Get "hero_subtitle" | safeHTML }}
+                            </span></li>
+                    </ul>
+
+                    <ul class="over-tablette">
+                        <li>
+                            <a class=" current_page" href="/en/partners/domaine-boise-roi">Boisé du roi</a>
+                        </li>
+                        <li>
+                            <a href="/en/partners/oree-du-village">L&#39;Orée du Village</a>
+                        </li>
+                        <li>
+                            <a href="/en/partners/domaine-pure-nature">Pure nature</a>
+                        </li>
+                        <li>
+                            <a href="/en/partners/domaine-sommet-du-lac">Sommet du lac</a>
+                        </li>
+
+                    </ul>
+
+                </aside>
+                <div class="content">
+
+                    <div class="heading-image">
+                        <img src="{{ .Scratch.Get "img" | relURL }}" alt="Domaine boise roi" />
+                    </div>
+
+                    <div class="intro">
+                        <h2>{{ .Scratch.Get "hero_subtitle" | safeHTML }}</h2>
+                      <p>{{ .Scratch.Get "hero_subtext" }}</p>  
+                    </div>
+
+                    <style type="text/css">
+                        .get-quote.get-quote-telephone>div:last-child .tel:after {
+                            border: none;
+                        }
+
+                        .get-quote.get-quote-telephone>div:last-child .tel {
+                            border-bottom: 2px solid white;
+                            width: 140px;
+                            margin-left: auto;
+                            /*display: block;*/
+                        }
+                    </style>
+
+
+                    <div class="get-quote small-columnar get-quote-telephone">
+                        <div>
+                            <div class="left">
+                                {{ .Scratch.Get "info_title"}}
+                            </div>
+                        </div>
+                        <div>
+                            <div class="right">
+                                {{ range .Scratch.Get "info_call"}}
+                                {{ .list_item }}
+                                {{ end }}
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    {{ partial "footer.html"}}
+</body>
+
+</html>

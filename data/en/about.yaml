@@ -1,0 +1,29 @@
+hero_title: "<em>ABOUT</em> ST-ONGE GROUP"
+image: "/img/groupe-st-onge-apropos.jpg"
+history_title: "OUR HISTORY"
+history_text: "In 1962, Gilles St-Onge founded the company with only a bulldozer and a truck. Nearly 34 years later, in 1996, its children decided to continue his father's dream by joining him in the company. At that time, St-Onge Group had 8 employees an dozen units in its vehicle fleet."
+history_text1: "A year later, success is flourishing . Number of employees and the number of vehicles had doubled! In 2001, St-Onge Group adds a new string to its bow with the engineering civil department."
+history_text2: "In 2011, Gilles St-Onge decided to retire officially, while remaining an active person in the company. The family business now has 42 employees and more than 30 heavy vehicles."
+
+value_title: "OUR VALUES"
+values:
+  - title: "Service"
+    image: "/img/service.png"
+    text: "Always provide courteous service to all our customers with performance equipment."
+
+  - title: "Quality"
+    image: "/img/qualite.png"
+    text: "Respect the norms and provide the highest industry standards."
+
+  - title: "Listening"
+    image: "/img/ecoute.png"
+    text: "Create excavation projects and customized engineering works according to the expectations of our customers."
+
+  - title: "Nature - Green"
+    image: "/img/nature.jpg"
+    text: "Meet environmental standards, promote reforestation and always respect natural habitat."
+
+
+our_mission: "OUR MISSION"
+mission_text: "For over 50 years, St-Onge Group's mission is to offer an exceptional customer service and projects with the highest standards of the industry."
+

@@ -1,0 +1,69 @@
+<head>
+    <title>Home - Excavation St-Onge group</title>
+    <meta name="description"
+        content="For all our excavation, installation of septic tank, civil engineering and materials delivery needs, St-Onge Group is the reference in the Laurentians.">
+    <meta name="keywords"
+        content="groupe st-onge, excavation, septic installation, civil engineering, matérial delivery">
+
+
+    {{ if .IsHome }}
+    
+    {{ else }}
+        
+    {{ end }}
+    <link rel="stylesheet" media="screen" href="{{"/css/pitek-slider.min.css" | relURL }}">
+    <link rel="stylesheet" media="screen" href="{{"/css/slider-image.css" | relURL }}">
+    <script src="{{"/js/pitek-slider.min.js" | relURL }}"></script>
+    
+
+    <script async="" src="https://www.google-analytics.com/analytics.js"></script>
+    
+
+    <!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+<link rel="stylesheet" media="all" href="/assets/ie-9f7242810c322783bc2595078d4ba6ba2d8e2043bd7346b35d8b62f5cbe5d151.css" />
+<![endif]-->
+    <link rel="stylesheet" media="all"
+        href="{{"/css/application-517f6228170416254edd0349bdc6cbaa212cfac021759bc53a5f69dd5d6253b3.css" | relURL }}">
+    <script src="{{"/js/application-39be8be5144fed6c794b2180269f2bdce3aad5fee4f034a55051f91676206109.js" | relURL }}"></script>
+    <style></style>
+
+    <link href="{{"/css/font-awesome.min.css" | relURL }}" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="{{"/img/favicon.png" | relURL }}" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-61972504-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    <meta name="csrf-param" content="authenticity_token">
+    <meta name="csrf-token"
+        content="oJJKPNbcz0ybxUE7wLqG6acD/YRwupjjs4v3zZNgdx/+suCsQogcrm5gjOgVzB4QgDu0SwxLwrB+WXNPMFE2hw==">
+
+
+    {{ if .IsHome }}
+    <link type="text/css" rel="stylesheet" href="chrome-extension://ghihpjhpgdepnohngpgfcmcijmkggpaf/style.css">
+    <script type="text/javascript" charset="utf-8"
+        src="chrome-extension://ghihpjhpgdepnohngpgfcmcijmkggpaf/js/page_context.js"></script>
+    <!-- <script src="chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/prompt.js"></script> -->
+    <script src="{{"/js/prompt.js" | relURL }}" ></script>
+    {{ else }}
+        
+    {{ end }}
+    
+</head>

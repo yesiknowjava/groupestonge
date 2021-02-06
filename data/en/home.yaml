@@ -1,0 +1,90 @@
+quote_title: "An excavation project in mind?"
+quote_text: " GET A QUOTE"
+quote_url: "/en/contact"
+hero_title: "YOUR PARTNER IN EXCAVATION FOR OVER 50 YEARS"
+hero_text: "Specialist in excavation, in installation of septic tank, in civil engineering and in materials delivery, St-Onge Group is the reference in the Laurentians. Leader in the field of excavation since 1962. St-Onge Group offers its clients an effective service and projects with highest industry standards. Our experienced team will be there to guide you throughout your excavation project."
+specalist_title: "OUR SPECIALTIES"
+specalist:
+  - image: ""
+    title: "Excavation"
+    text: "Excavation service for all residentials and commercials projects ."
+    url: "/services/en/excavation-generale"
+
+  - image: ""
+    title: "Septic installation"
+    text: "Expert advices for a septic installation or a leaching bed."
+    url: "/services/en/installation-septique"
+
+  - image: ""
+    title: "Material delivery"
+    text: "Material delivery for any excavation or construction project."
+    url: "/en/transports"
+
+  - image: ""
+    title: "Civil engineering"
+    text: "Civil engineering experts for projects such as roads, sewers, waterworks, etc."
+    url: "/services/en/genie-civil"
+
+testimonials_title: "TESTIMONIALS"
+testimonials: '<ul class="quote-slider-wrapper">
+                                <li class="quote-slide">
+                                    Affability and minitious work are the trademarks of all the staff of St-Onge Group.
+                                    The customer satisfaction is assured!
+                                    <cite>
+                                        <strong>Raymond Beaudelot</strong>,
+                                        Domaine Lamoureux at St-Hippolyte
+                                    </cite>
+                                </li>
+
+                                <li class="quote-slide">
+                                    It was a first experience for me with St-Onge Group. They gave me good advice.
+                                    Service was excellent and the bid was respected! Very satisfied!
+                                    <cite>
+                                        <strong>Érik Lavoie</strong>,
+                                        Prévost
+                                    </cite>
+                                </li>
+
+                                <li class="quote-slide">
+                                    For three years now, we are proud of working with St-Onge Group.
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For all the work related to the excavation, we
+                                    do not hesitate to refer this company established in our area since many years.
+                                    <cite>
+                                        <strong>Érik Lavoie</strong>,
+                                        Prévost
+                                    </cite>
+                                </li>
+
+                            </ul>'
+partners_title: " OUR PARTNERS"
+partners:
+    - image: "img/bionest.png"
+      url: "http://www.bionest-tech.com/"
+
+    - image: "img/ecoflo.png"
+      url: "http://www.biofiltreecoflo.com/"
+
+    - image: "img/enviroseptic.png"
+      url: "http://www.enviro-septic.com/"
+
+    - image: "img/enviro_step"
+      url: "http://enviro-step.ca/"
+
+    - image: "img/boise_roi.png"
+      url: "/en/partners/domaine-boise-roi"
+
+    - image: "img/sommet_lac.png"
+      url: "/en/partners/domaine-sommet-du-lac"
+
+    - image: "img/pure_nature.png"
+      url: "/en/partners/domaine-pure-nature"
+
+    - image: "img/oree_village.png"
+      url: "/en/partners/oree-du-village"
+
+
+equipment_text: "WE ARE EQUIPPED TO CARRY OUT ANY EXCAVATION PROJECTS "
+equipment_text1: "Hydraulic shovels and excavators"
+equipment_text2: "10 and 12-wheel trucks"
+equipment_text3: "Dozers, loaders and graders"
+equipment_text4: "Highly qualified employees"
