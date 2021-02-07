@@ -4,7 +4,7 @@ hero_text: 'St-Onge Group offers its customers an effective service and
   there to guide you throughout your excavation project. Whether your
   excavation, septic system or civil engineering needs, St- Onge Group is
   your partner of choice. For a quote, 
-  <a href="/en/contact-us">call our team now</a>.'
+  <a href="/en/contact">call our team now</a>.'
 hero_link: "<a href='/contact'>call our team now</a>"
 
 services:
@@ -16,77 +16,77 @@ services:
     btn: "Find Out More"
 
   - title: "Soil testing"
-    url_link: "/services/excavation-generale"
+    url_link: "/services/analyse"
     image: "/img/analyse-512.jpg"
     alt:  "Excavation generale 512"
     text: "Professional service for soil testing excavation."
     btn: "Find Out More"
 
   - title: "Septic installation"
-    url_link: "/services/excavation-generale"
+    url_link: "/services/installation-septique"
     image: "/img/installation-septique-512.jpg"
     alt:  "Excavation generale 512"
     text: "Expert advices for a septic installation or a leaching bed."
     btn: "Find Out More"
 
   - title: "Stones wall"
-    url_link: "/services/excavation-generale"
+    url_link: "/services/mur-pierre"
     image: "/img/mur-pierre-512.jpg"
     alt:  "Excavation generale 512"
     text: "Professional and safe work for any stones or retaining wall projects."
     btn: "Find Out More"
 
   - title: "Landscaping"
-    url_link: "/services/excavation-generale"
+    url_link: "/services/amenagement"
     image: "/img/amenagement-512.jpg"
     alt:  "Excavation generale 512"
     text: "For pedestrian walkways, stairs rock or retaining wall, St-Onge Group is there for you."
     btn: "Find Out More"
 
   - title: "Foundation excavation"
-    url_link: "/services/excavation-generale"
+    url_link: "/services/excavation-fondation"
     image: "/img/excavation-fondation-512.jpg"
     alt:  "Excavation generale 512"
     text: "For all new house project, garage addition, building expansion, etc."
     btn: "Find Out More"
 
   - title: "Private road"
-    url_link: "/services/excavation-generale"
+    url_link: "/services/chemin"
     image: "/img/chemin-512.jpg"
     alt:  "Excavation generale 512"
     text: "Realization of private or access road regardless field and ground."
     btn: "Find Out More"
 
   - title: "Building demolition"
-    url_link: "/services/excavation-generale"
+    url_link: "/services/demolition"
     image: "/img/demolition-512.jpg"
     alt:  "Excavation generale 512"
     text: "Qualified company for building demolition after a damage situation."
     btn: "Find Out More"
 
   - title: "Civil engineering"
-    url_link: "/services/excavation-generale"
+    url_link: "/services/genie-civil"
     image: "/img/genie-civil-512.jpg"
     alt:  "Excavation generale 512"
     text: "Civil engineering experts for projects such as roads, sewers, waterworks, etc."
     btn: "Find Out More"
 
   - title: "Deforestation"
-    url_link: "/services/excavation-generale"
+    url_link: "/services/deboisement"
     image: "/img/deboisement-512.jpg"
     alt:  "Excavation generale 512"
     text: "Technical tools for a fast and safe deforestation."
     btn: "Find Out More"
 
   - title: "Municipal snow removal"
-    url_link: "/services/excavation-generale"
+    url_link: "/services/deneigement"
     image: "/img/deneigement-512.jpg"
     alt:  "Excavation generale 512"
     text: "Snow removal company for St-Hippolyte and Ste-Sophie cities."
     btn: "Find Out More"
 
   - title: "Material delivery"
-    url_link: "/services/excavation-generale"
+    url_link: "/transports"
     image: "/img/livraison-materiaux-512.jpg"
     alt:  "Excavation generale 512"
     text: "Material delivery for any excavation or construction project."

@@ -60,27 +60,43 @@ partners_title: " OUR PARTNERS"
 partners:
     - image: "img/bionest.png"
       url: "http://www.bionest-tech.com/"
+      internal: "false"
+      label: ""
 
     - image: "img/ecoflo.png"
       url: "http://www.biofiltreecoflo.com/"
+      internal: "false"
+      label: ""
 
     - image: "img/enviroseptic.png"
       url: "http://www.enviro-septic.com/"
+      internal: "false"
+      label: ""
 
     - image: "img/enviro_step"
       url: "http://enviro-step.ca/"
+      internal: "false"
+      label: ""
 
     - image: "img/boise_roi.png"
       url: "/en/partners/domaine-boise-roi"
+      internal: "true"
+      label: "Boisé du roi"
 
     - image: "img/sommet_lac.png"
       url: "/en/partners/domaine-sommet-du-lac"
+      internal: "true"
+      label: "Sommet du lac"
 
     - image: "img/pure_nature.png"
       url: "/en/partners/domaine-pure-nature"
+      internal: "true"
+      label: "Pure nature"
 
     - image: "img/oree_village.png"
       url: "/en/partners/oree-du-village"
+      internal: "true"
+      label: "L'Orée du Village"
 
 
 equipment_text: "WE ARE EQUIPPED TO CARRY OUT ANY EXCAVATION PROJECTS "
