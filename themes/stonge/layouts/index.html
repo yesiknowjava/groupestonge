@@ -60,7 +60,7 @@
                             <div class="services-content">
                                 <h3>{{ (index $data.home.specalist 1).title | safeHTML  }}</h3>
                                 <p>{{ (index $data.home.specalist 1).text | safeHTML  }}</p>
-                                <a class="button-more" href="{{ (index $data.home.specalist 1).url | safeHTML  }}">{{ (index $data.home.specalist 1).btn | safeHTML  }}</a>
+                                <a class="button-more" href="{{ (index $data.home.specalist 1).url | safeHTML  }}">{{ (index $data.home.specalist 1 ).btn | safeHTML  }}</a>
                             </div>
 
                         </li>
@@ -154,7 +154,7 @@
                         <figure>
                             <a target="_blank" href="{{ .url }}">
                                 <div class="img-wrapper">
-                                    <img alt="Bionest" src="{{ .image }}">
+                                    <img alt="Bionest" src="{{ .image | relURL }}">
                                 </div>
                             </a> </figure>
                         
@@ -183,7 +183,7 @@
         </script>
 
     </main>
-{{ partial "footer.html" . }}
+    {{ $data.home.footer | safeHTML  }}
 
 </body>
 

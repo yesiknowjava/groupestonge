@@ -2,23 +2,23 @@ hero_title: "<em>NOS</em> PROJETS"
 projects:
    -  text_over: "Terrain du chemin du lac Connelly"
       img: "/img/image1.jpg"
-      url: "/projets/fondation_chemin_connelly"
+      url: "/projets/fondation-chemin-connelly"
 
    -  text_over: "Chemin du lac des Becs-Scie"
       img: "/img/image1_1.jpg"
-      url: "/projets/bec_scie"
+      url: "/projets/bec-scie"
 
    -  text_over: "Aménagement de terrain résidentiel au boulevard des Hauteurs"
       img: "/img/image1_2.jpg"
-      url: "/projets/boulevard_des_hauteurs"
+      url: "/projets/boulevard-des-hauteurs"
 
    -  text_over: "Déboisement sur la rue des Chênes"
       img: "/img/image1_3.jpg"
-      url: "/projets/rue_des_chenes"
+      url: "/projets/rue-des-chenese"
 
    -  text_over: "Aménagement à Springvalley"
       img: "/img/image1_4.jpg"
-      url: "/projets/amenagement_springvalley"
+      url: "/projets/amenagement-springvalley"
 quote_title: "Vous avez un projet d'excavation en tête?"
 quote_text: "OBTENEZ UNE SOUMISSION"
 url: "/nous-joindre"

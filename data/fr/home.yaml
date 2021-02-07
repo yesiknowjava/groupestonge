@@ -69,7 +69,7 @@ partners:
       internal: "false"
       label: ""
 
-    - image: "img/enviro_step"
+    - image: "img/enviro_step.png"
       url: "http://enviro-step.ca/"
       internal: "false"
       label: ""
@@ -100,3 +100,117 @@ equipment_text1: "Pelles hydroliques et excavatrices"
 equipment_text2: "Camions 10 et 12 roues"
 equipment_text3: "Bouteurs, chargeurs et niveleuses"
 equipment_text4: "Employés hautement qualifiés"
+footer: '<footer>
+      <div id="sub-footer" class="max-width">
+  <div class="wrap">
+    <ul id="footer-infos" class="columnar three-column">
+      <li class="footer-div" id="zones">
+        <h3>Zones désservies</h3>
+        <p>Groupe St-Onge offre ses services d’excavation dans les régions suivantes :</p>
+          <ul id="ville-list" class="smaller-columnar smaller-two-column">
+              <li>St-Hippolyte</li>
+              <li>St-Sauveur</li>
+              <li>Morin-Heights</li>
+              <li>Laurentides</li>
+              <li>Prévost</li>
+              <li>Mirabel</li>
+              <li>Ste-Sophie</li>
+              <li>Ste-Adèle</li>
+              <li>St-Jérôme</li>
+              <li>St-Colomban</li>
+          </ul>
+
+      </li>
+      <li class="footer-div" id="our-services">
+        <h3>Nos services</h3>
+        <ul id="services-list" class="smaller-columnar smaller-two-column">
+            <li>
+    <a class="" href="/services/excavation-generale">Excavation générale</a>
+  </li>
+  <li>
+    <a class="" href="/services/analyse">Analyse de sol</a>
+  </li>
+  <li>
+    <a class="" href="/services/installation-septique">Installation septique</a>
+  </li>
+  <li>
+    <a class="" href="/services/mur-pierre">Mur de roches</a>
+  </li>
+  <li>
+    <a class="" href="/services/amenagement">Aménagement de terrain</a>
+  </li>
+  <li>
+    <a class="" href="/services/excavation-fondation">Excavation de fondation</a>
+  </li>
+  <li>
+    <a class="" href="/services/chemin">Chemin d’accès</a>
+  </li>
+  <li>
+    <a class="" href="/services/demolition">Démolition de bâtiment</a>
+  </li>
+  <li>
+    <a class="" href="/services/genie-civil">Génie civil</a>
+  </li>
+  <li>
+    <a class="" href="/services/deboisement">Déboisement</a>
+  </li>
+  <li>
+    <a class="" href="/services/deneigement">Déneigement municipal</a>
+  </li>
+
+          <li>
+            <a href="/transports">Livraison de matériaux</a>
+          </li>
+        </ul>
+      </li>
+      <li class="footer-div" id="contact">
+        <h3>Nos coordonnées</h3>
+        <ul>
+          <li>
+            <i class="fa fa-map-marker"></i>
+            <a href="https://www.google.ca/maps/place/1075+Croissant+Des+Hauteurs,+Saint-Hippolyte,+QC+J8A+0A5/" target="_blank">
+              <span class="solidary-line">1075 Croissant des Hauteurs,</span>
+              <span class="solidary-line">St-Hippolyte J8A 0A5</span>
+            </a>
+          </li>
+          <li>
+            <i class="fa fa-phone"></i>
+            <a href="tel:4502240555">450.224.0555</a>
+          </li>
+          <li>
+            <i class="fa fa-fax"></i>
+            <a href="tel:4502244550">450.224.4550</a>
+          </li>
+          <li>
+            <i class="fa fa-envelope"></i>
+            <a href="mailto:info@groupestonge.com">info@groupestonge.com</a>
+          </li>
+          <li>
+            <i class="icon-rbq"></i>
+            <span>2423-7190-25</span>
+          </li>
+        </ul>
+        <ul class="inliner">
+          <li><a href="https://www.facebook.com/Groupe-St-Onge-278956588912246/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://plus.google.com/110603726319670951985/about" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+<div id="footer" class="full-width">
+  <div class="wrap small-columnar small-two-column">
+    <div class="left">
+      <div>© 2021 Groupe St-Onge</div>
+      <div>Tous droits réservés</div>
+    </div>
+
+    <div class="right">
+      <a class="proitek" href="http://bolean.ca/" target="_blank"> Fait avec <i class="fa fa-heart heart"></i> par bolean</a>, <a class="proitek" href="http://proitek.ca"> une division de Pro-iTek</a>
+    </div>
+  </div>
+
+  <a href="#" id="to-top"></a>
+</div>
+
+    </footer>'

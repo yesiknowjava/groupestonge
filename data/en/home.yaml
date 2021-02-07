@@ -9,21 +9,25 @@ specalist:
     title: "Excavation"
     text: "Excavation service for all residentials and commercials projects ."
     url: "/services/en/excavation-generale"
+    btn: "more"
 
   - image: ""
     title: "Septic installation"
     text: "Expert advices for a septic installation or a leaching bed."
     url: "/services/en/installation-septique"
+    btn: "more"
 
   - image: ""
     title: "Material delivery"
     text: "Material delivery for any excavation or construction project."
     url: "/en/transports"
+    btn: "more"
 
   - image: ""
     title: "Civil engineering"
     text: "Civil engineering experts for projects such as roads, sewers, waterworks, etc."
     url: "/services/en/genie-civil"
+    btn: "more"
 
 testimonials_title: "TESTIMONIALS"
 testimonials: '<ul class="quote-slider-wrapper">
@@ -73,7 +77,7 @@ partners:
       internal: "false"
       label: ""
 
-    - image: "img/enviro_step"
+    - image: "img/enviro_step.png"
       url: "http://enviro-step.ca/"
       internal: "false"
       label: ""
@@ -104,3 +108,120 @@ equipment_text1: "Hydraulic shovels and excavators"
 equipment_text2: "10 and 12-wheel trucks"
 equipment_text3: "Dozers, loaders and graders"
 equipment_text4: "Highly qualified employees"
+
+footer: '
+<footer>
+      <div id="sub-footer" class="max-width">
+  <div class="wrap">
+    <ul id="footer-infos" class="columnar three-column">
+      <li class="footer-div" id="zones">
+        <h3>Services coverage</h3>
+        <p>St-Onge Group offers services in the following areas :</p>
+          <ul id="ville-list" class="smaller-columnar smaller-two-column">
+              <li>St-Hippolyte</li>
+              <li>St-Sauveur</li>
+              <li>Morin-Heights</li>
+              <li>Laurentides</li>
+              <li>Prévost</li>
+              <li>Mirabel</li>
+              <li>Ste-Sophie</li>
+              <li>Ste-Adèle</li>
+              <li>St-Jérôme</li>
+              <li>St-Colomban</li>
+          </ul>
+
+      </li>
+      <li class="footer-div" id="our-services">
+        <h3>Our services</h3>
+        <ul id="services-list" class="smaller-columnar smaller-two-column">
+            <li>
+    Excavation
+  </li>
+  <li>
+    Soil testing
+  </li>
+  <li>
+    Septic installation
+  </li>
+  <li>
+    Stones wall
+  </li>
+  <li>
+    Landscaping
+  </li>
+  <li>
+    Foundation excavation
+  </li>
+  <li>
+    Private road
+  </li>
+  <li>
+    Building demolition
+  </li>
+  <li>
+    Civil engineering
+  </li>
+  <li>
+    Deforestation
+  </li>
+  <li>
+    Municipal snow removal
+  </li>
+
+          <li>
+            Material delivery
+          </li>
+        </ul>
+      </li>
+      <li class="footer-div" id="contact">
+        <h3>Contact us</h3>
+        <ul>
+          <li>
+            <i class="fa fa-map-marker"></i>
+            <a href="https://www.google.ca/maps/place/1075+Croissant+Des+Hauteurs,+Saint-Hippolyte,+QC+J8A+0A5/" target="_blank">
+              <span class="solidary-line">1075 Croissant des Hauteurs,</span>
+              <span class="solidary-line">St-Hippolyte J8A 0A5</span>
+            </a>
+          </li>
+          <li>
+            <i class="fa fa-phone"></i>
+            <a href="tel:4502240555">450.224.0555</a>
+          </li>
+          <li>
+            <i class="fa fa-fax"></i>
+            <a href="tel:4502244550">450.224.4550</a>
+          </li>
+          <li>
+            <i class="fa fa-envelope"></i>
+            <a href="mailto:info@groupestonge.com">info@groupestonge.com</a>
+          </li>
+          <li>
+            <i class="icon-rbq"></i>
+            <span>2423-7190-25</span>
+          </li>
+        </ul>
+        <ul class="inliner">
+          <li><a href="https://www.facebook.com/Groupe-St-Onge-278956588912246/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://plus.google.com/110603726319670951985/about" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+<div id="footer" class="full-width">
+  <div class="wrap small-columnar small-two-column">
+    <div class="left">
+      <div>© 2021 Groupe St-Onge</div>
+      <div>All rights reserved</div>
+    </div>
+
+    <div class="right">
+      <a class="proitek" href="http://bolean.ca/" target="_blank"> Created with <i class="fa fa-heart heart"></i> by bolean</a>, <a class="proitek" href="http://proitek.ca"> a division of Pro-iTek</a>
+    </div>
+  </div>
+
+  <a href="#" id="to-top"></a>
+</div>
+
+    </footer>
+'

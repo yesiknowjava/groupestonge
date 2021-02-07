@@ -2,9 +2,8 @@
 <!DOCTYPE html>
 <html>
 {{ $data := index .Site.Data .Site.Language.Lang }}
-{{ if eq .Params.title "Fondation chemin conelly" }}
-    
-    
+
+{{ if eq .Params.compare_title "fondation-chemin-conelly" }} 
     {{ .Scratch.Set "img" $data.projets.fondation_chemin_connelly.img }}
     {{ .Scratch.Set "hero_subtitle" $data.projets.fondation_chemin_connelly.hero_subtitle }}
     {{ .Scratch.Set "hero_title" $data.projets.fondation_chemin_connelly.hero_title }}
@@ -25,7 +24,7 @@
     {{ .Scratch.Set "quote_url" $data.projets.fondation_chemin_connelly.quote_url }}
 
 
-{{ else if eq .Params.title "Bec scie" }}
+{{ else if eq .Params.compare_title "bec-scie" }}
     
     {{ .Scratch.Set "img" $data.projets.bec_sec.img }}
     {{ .Scratch.Set "hero_subtitle" $data.projets.bec_sec.hero_subtitle }}
@@ -46,7 +45,7 @@
     {{ .Scratch.Set "quote_text" $data.projets.bec_sec.quote_text }}
     {{ .Scratch.Set "quote_url" $data.projets.bec_sec.quote_url }}
 
-{{ else if eq .Params.title "Boulevard des hauteurs" }}
+{{ else if eq .Params.compare_title "boulevard-des-hauteurs" }}
     
     {{ .Scratch.Set "img" $data.projets.boulevard_des_hauteurs.img }}
     {{ .Scratch.Set "hero_subtitle" $data.projets.boulevard_des_hauteurs.hero_subtitle}}
@@ -68,7 +67,7 @@
     {{ .Scratch.Set "quote_url" $data.projets.boulevard_des_hauteurs.quote_url }}
 
 
-{{else  if eq .Params.title "Rue des chenese" }}
+{{else  if eq .Params.compare_title "rue-des-chenese" }}
     
     {{ .Scratch.Set "img" $data.projets.rue_des_chenes.img }}
     {{ .Scratch.Set "hero_subtitle" $data.projets.rue_des_chenes.hero_subtitle }}
@@ -94,24 +93,24 @@
     
     
     
- {{ .Scratch.Set "img" $data.projets.bec_sec.img }}
- {{ .Scratch.Set "hero_subtitle" $data.projets.bec_sec.hero_subtitle }}
- {{ .Scratch.Set "hero_title" $data.projets.bec_sec.hero_title }}
- {{ .Scratch.Set "alt" $data.projets.bec_sec.alt }}
- {{ .Scratch.Set "home" $data.projets.bec_sec.home }}
- {{ .Scratch.Set "home_url" $data.projets.bec_sec.home_url }}
- {{ .Scratch.Set "projects" $data.projets.bec_sec.projects }}
- {{ .Scratch.Set "projects_url" $data.projets.bec_sec.projects_url }}
- {{ .Scratch.Set "project_info" $data.projets.bec_sec.project_info }}
- {{ .Scratch.Set "year_title" $data.projets.bec_sec.year_title }}
- {{ .Scratch.Set "year" $data.projets.bec_sec.year }}
- {{ .Scratch.Set "city_title" $data.projets.bec_sec.city_title }}
- {{ .Scratch.Set "city" $data.projets.bec_sec.city }}
- {{ .Scratch.Set "desc_title" $data.projets.bec_sec.desc_title }}
- {{ .Scratch.Set "description" $data.projets.bec_sec.description }}
- {{ .Scratch.Set "quote_title" $data.projets.bec_sec.quote_title }}
- {{ .Scratch.Set "quote_text" $data.projets.bec_sec.quote_text }}
- {{ .Scratch.Set "quote_url" $data.projets.bec_sec.quote_url }}
+ {{ .Scratch.Set "img" $data.projets.amenagement_springvalley.img }}
+ {{ .Scratch.Set "hero_subtitle" $data.projets.amenagement_springvalley.hero_subtitle }}
+ {{ .Scratch.Set "hero_title" $data.projets.amenagement_springvalley.hero_title }}
+ {{ .Scratch.Set "alt" $data.projets.amenagement_springvalley.alt }}
+ {{ .Scratch.Set "home" $data.projets.amenagement_springvalley.home }}
+ {{ .Scratch.Set "home_url" $data.projets.amenagement_springvalley.home_url }}
+ {{ .Scratch.Set "projects" $data.projets.amenagement_springvalley.projects }}
+ {{ .Scratch.Set "projects_url" $data.projets.amenagement_springvalley.projects_url }}
+ {{ .Scratch.Set "project_info" $data.projets.amenagement_springvalley.project_info }}
+ {{ .Scratch.Set "year_title" $data.projets.amenagement_springvalley.year_title }}
+ {{ .Scratch.Set "year" $data.projets.amenagement_springvalley.year }}
+ {{ .Scratch.Set "city_title" $data.projets.amenagement_springvalley.city_title }}
+ {{ .Scratch.Set "city" $data.projets.amenagement_springvalley.city }}
+ {{ .Scratch.Set "desc_title" $data.projets.amenagement_springvalley.desc_title }}
+ {{ .Scratch.Set "description" $data.projets.amenagement_springvalley.description }}
+ {{ .Scratch.Set "quote_title" $data.projets.amenagement_springvalley.quote_title }}
+ {{ .Scratch.Set "quote_text" $data.projets.amenagement_springvalley.quote_text }}
+ {{ .Scratch.Set "quote_url" $data.projets.amenagement_springvalley.quote_url }}
 
 {{end}}
     

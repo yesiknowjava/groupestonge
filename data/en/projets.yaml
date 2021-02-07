@@ -2,23 +2,23 @@ hero_title: "<em>OUR</em> PROJECTS"
 projects:
    -  text_over: "Habitation on chemin du lac Connelly"
       img: "/img/image1.jpg"
-      url: "/projets/fondation_chemin_connelly"
+      url: "/en/projects/fondation-chemin-connelly"
 
    -  text_over: "Chemin du lac des Becs-Scie"
       img: "/img/image1_1.jpg"
-      url: "/projets/bec-sce"
+      url: "/en/projects/bec-sce"
 
    -  text_over: "Residential landscaping in St-Hippolyte"
       img: "/img/image1_2.jpg"
-      url: "/projets/boulevard_des_hauteurs"
+      url: "/en/projects/boulevard-des-hauteurs"
 
    -  text_over: "Deforestation and excavation in St-Hippolyte"
       img: "/img/image1_3.jpg"
-      url: "/projets/rue_des_chenes"
+      url: "/en/projects/rue-des-chenese"
 
    -  text_over: "Landscaping in Springvalley"
       img: "/img/image1_4.jpg"
-      url: "/projets/amenagement_springvalley"
+      url: "/en/projects/amenagement-springvalley"
 quote_title: "An excavation project in mind?"
 quote_text: "GET A QUOTE"
 url: "/en/contact"
@@ -28,7 +28,7 @@ fondation_chemin_connelly:
             home: "Home"
             home_url: "/"
             projects: "projects"
-            projects_url: "/en/projets"
+            projects_url: "/en/projects"
             hero_title: "<em>HABITATION ON</em> CHEMIN DU LAC CONNELLY"
             hero_subtitle: "Habitation on Chemin du lac connelly"
             img:
@@ -50,7 +50,7 @@ bec_sec:
             home: "Home"
             home_url: "/"
             projects: "projects"
-            projects_url: "/en/projets"
+            projects_url: "/en/projects"
             hero_title: "<em>CHEMIN</em> DU LAC DES BECS-SCIE"
             hero_subtitle: "Chemin du lac des becs-scie"
             img:
@@ -74,7 +74,7 @@ boulevard_des_hauteurs:
             home: "Home"
             home_url: "/"
             projects: "projects"
-            projects_url: "/en/projets"
+            projects_url: "/en/projects"
             hero_title: "<em>LANDSCAPING</em> RESIDENTIAL HOUSE"
             hero_subtitle: "Landscaping resedential house"
             img:
@@ -98,7 +98,7 @@ rue_des_chenes:
             home: "Home"
             home_url: "/"
             projects: "projects"
-            projects_url: "/en/projets"
+            projects_url: "/en/projects"
             hero_title: "<em>DEFORESTATION</em> FOR RESIDENTIAL HOUSE"
             hero_subtitle: "deforestation for residential house"
             img:
@@ -123,7 +123,7 @@ amenagement_springvalley:
             home: "Home"
             home_url: "/"
             projects: "projects"
-            projects_url: "/en/projets"
+            projects_url: "/en/projects"
             hero_title: "<em>LANDSCAPING</em> IN SPRINGVALLEY"
             hero_subtitle: "Landscaping in springvalley"
             img:

@@ -1,7 +1,7 @@
-hero_title: "<em>CARRIÈRES</em>"
+hero_title: "<em>CAREER</em>"
 img: "img/carriere.jpg"
-text: "Travailler chez Groupe St-Onge, c'est faire partie d'une équipe chevronnée et passionnée. Notre réussite commence avec vous."
-btn: "ENVOYER"
+text: "Our success starts with you."
+btn: "Send"
 
 sidebar_links:
   - title: "Manœuvre au génie civil commercial et résidentiel"
